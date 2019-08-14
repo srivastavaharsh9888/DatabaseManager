@@ -1,0 +1,59 @@
+<div class="container">
+	<div class="row">
+	  <div class="col-12 col-md-4">
+	  	<h3>Select Format-:</h3>
+	  	<div class="container boxShade" >
+	  		<form #formData="ngForm" (ngSubmit)="setData(formData)">
+	  			<div class="form-row">
+			  		<div class="col" style="margin-left:20%;">
+					  <input class="form-check-input" type="radio" name="mysqlcsv" id="sql" [value]=1 [(ngModel)]="selected" [checked]>
+					  <label class="form-check-label" for="sql">
+					    MYSQL
+					  </label>
+					</div>
+					<div class="col">
+					  <input class="form-check-input" type="radio" name="mysqlcsv" id="csv" [value]=2 [(ngModel)]="selected">
+					  <label class="form-check-label" for="csv">
+					    CSV
+					  </label>
+					</div>
+					<div *ngIf="selected=='1'" class="animated fadeIn container" style="padding: 5px;" >
+					    <div class="col">
+					      <input type="text" class="form-control" name="username" placeholder="Username" [(ngModel)]="sqlCredential.username">
+    					</div>
+    					<div class="col">
+					      <input type="text" class="form-control" name="password" placeholder="Password" [(ngModel)]="sqlCredential.password">
+    					</div>
+						<div class="col">
+					      <input type="text" class="form-control" name="host" placeholder="HOST" [(ngModel)]="sqlCredential.host">
+    					</div>
+    					<div class="col" style="margin-top: 5px;">
+	    					<button type="submit" class="btn btn-info" >Submit</button>
+    					</div>
+					</div>	
+					<div *ngIf="selected=='2'" class="container" style="padding: 5px;" class="animated fadeIn container">
+						<div class="col">
+					  		<label for="files">Upload a CSV formatted file:</label>
+					  		<input type="file" id="input-file"  class="form-control" name="csvFile" accept=".csv"        (change)="fileChanged($event)"/>
+						</div>
+						<div class="col" style="margin-top: 5px;">
+					 		<button type="submit" id="submit" class="btn btn-primary">Submit</button>
+					 	</div>
+					</div>	
+				</div>
+	  		</form>
+	  	</div>
+	  </div>
+	  <div class="col-12 col-md-4" >
+	  	<h3>Select Source-:</h3>
+	  	<div *ngIf="selected=='1'" class="boxShade"><app-sql></app-sql></div>
+		<div *ngIf="selected=='2'" class="boxShade"><app-csv></app-csv></div>
+     </div>
+	  <div class="col-12 col-md-4">
+	    <h3>Final Output-:</h3>
+	    <div class="container boxShade">
+		  	<app-ouput></app-ouput>
+	  	</div>
+	  </div>
+	</div>
+</div>

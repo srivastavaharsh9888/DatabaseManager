@@ -1,0 +1,37 @@
+<h5>Selected Databse</h5>
+<h6>(At max two can be selected)</h6>
+
+<div>
+	<button type="button" class="btn btn-light">{{firstCol}}</button>
+</div>
+
+<div style="margin-top: 10px;">
+	<button type="button" class="btn btn-light">{{secondCol}}</button>
+</div>
+
+
+<div class="container row" style="margin-top: 10px;">
+	<form>
+	    <label>Select Join</label>	<br>
+		<select style="padding: 8px;" [(ngModel)]="join" name="join">
+	        <option value="inner">Inner Join</option>
+	        <option value="outer">Outer Join</option>
+	        <option value="left">Left Join</option>
+	        <option value="right">Right Join</option>
+	     </select>	
+	</form>
+</div>
+
+<div class="container row" style="margin-top: 10px;">
+	<form>
+	   <label value=null> Select Transformation</label><br>	
+		<select style="padding: 8px;"  [(ngModel)]="trans" name="trans">
+	        <option value="0" >     Ascending</option>
+	        <option value="1" >   Descending</option>
+	     </select>	
+	</form>
+</div>
+
+<div class="container" style="margin-top: 10px;">
+	<button class="btn btn-info" (click)="sendData()" >Generate Join</button>
+</div>

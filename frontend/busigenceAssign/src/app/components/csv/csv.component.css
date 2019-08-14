@@ -1,0 +1,54 @@
+ul{
+  list-style: none;
+  padding: 0;
+}
+
+.brk{
+  word-break: break-word;
+  padding-left: 10px;
+}
+
+label{
+  display: block;
+  cursor: pointer;
+  padding: 10px;
+  border: 1px solid #fff;
+  margin:5px;
+}
+
+label:hover{
+  background: #d3edf1;
+}
+
+label.last{
+  border-bottom: 1px solid #fff;
+}
+
+ul ul li{
+  padding: 10px;
+  background: whitesmoke;
+  margin-left: 10px;
+}
+
+
+input[type="checkbox"]{
+  position: absolute;
+  left: -9999px;
+}
+
+input[type="checkbox"] ~ ul{
+  height: 0;
+  transform: scaleY(0);
+}
+
+input[type="checkbox"]:checked ~ ul{
+  height: 100%;
+  transform-origin: top;
+  transition: transform .2s ease-out;
+  transform: scaleY(1); 
+}
+
+input[type="checkbox"]:checked + label{
+  background: #d3edf1;
+  border-bottom: 1px solid #fff;
+}

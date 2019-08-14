@@ -1,0 +1,14 @@
+<div class="table-responsive-xl">
+  <table class="table table-bordered  table-striped">
+	<thead>
+	    <tr>
+	      <th scope="col" *ngFor="let col of columnNames">{{col}}</th>
+	    </tr>
+  	</thead>
+  	<tbody>
+	    <tr *ngFor="let col of data">
+	      <td scope="row" *ngFor="let c of col">{{c}}</td>
+	    </tr>
+	</tbody>
+  </table>
+</div>

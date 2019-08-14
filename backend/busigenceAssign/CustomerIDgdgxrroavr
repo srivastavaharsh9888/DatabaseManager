@@ -1,0 +1,831 @@
+CustomerID,CompanyName,ContactName,ContactTitle,OrderID,EmployeeID,OrderDate,RequiredDate,ShippedDate,ShipVia,Freight
+ALFKI,Alfreds Futterkiste,Maria Anders,Sales Representative,10643,6,00:00.0,00:00.0,00:00.0,1,29.46
+ALFKI,Alfreds Futterkiste,Maria Anders,Sales Representative,10692,4,00:00.0,00:00.0,00:00.0,2,61.02
+ALFKI,Alfreds Futterkiste,Maria Anders,Sales Representative,10702,4,00:00.0,00:00.0,00:00.0,1,23.94
+ALFKI,Alfreds Futterkiste,Maria Anders,Sales Representative,10835,1,00:00.0,00:00.0,00:00.0,3,69.53
+ALFKI,Alfreds Futterkiste,Maria Anders,Sales Representative,10952,1,00:00.0,00:00.0,00:00.0,1,40.42
+ALFKI,Alfreds Futterkiste,Maria Anders,Sales Representative,11011,3,00:00.0,00:00.0,00:00.0,1,1.21
+ANATR,Ana Trujillo Emparedados y helados,Ana Trujillo,Owner,10308,7,00:00.0,00:00.0,00:00.0,3,1.61
+ANATR,Ana Trujillo Emparedados y helados,Ana Trujillo,Owner,10625,3,00:00.0,00:00.0,00:00.0,1,43.9
+ANATR,Ana Trujillo Emparedados y helados,Ana Trujillo,Owner,10759,3,00:00.0,00:00.0,00:00.0,3,11.99
+ANATR,Ana Trujillo Emparedados y helados,Ana Trujillo,Owner,10926,4,00:00.0,00:00.0,00:00.0,3,39.92
+ANTON,Antonio Moreno Taquería,Antonio Moreno,Owner,10365,3,00:00.0,00:00.0,00:00.0,2,22
+ANTON,Antonio Moreno Taquería,Antonio Moreno,Owner,10507,7,00:00.0,00:00.0,00:00.0,1,47.45
+ANTON,Antonio Moreno Taquería,Antonio Moreno,Owner,10535,4,00:00.0,00:00.0,00:00.0,1,15.64
+ANTON,Antonio Moreno Taquería,Antonio Moreno,Owner,10573,7,00:00.0,00:00.0,00:00.0,3,84.84
+ANTON,Antonio Moreno Taquería,Antonio Moreno,Owner,10677,1,00:00.0,00:00.0,00:00.0,3,4.03
+ANTON,Antonio Moreno Taquería,Antonio Moreno,Owner,10682,3,00:00.0,00:00.0,00:00.0,2,36.13
+ANTON,Antonio Moreno Taquería,Antonio Moreno,Owner,10856,3,00:00.0,00:00.0,00:00.0,2,58.43
+AROUT,Around the Horn,Thomas Hardy,Sales Representative,10355,6,00:00.0,00:00.0,00:00.0,1,41.95
+AROUT,Around the Horn,Thomas Hardy,Sales Representative,10383,8,00:00.0,00:00.0,00:00.0,3,34.24
+AROUT,Around the Horn,Thomas Hardy,Sales Representative,10453,1,00:00.0,00:00.0,00:00.0,2,25.36
+AROUT,Around the Horn,Thomas Hardy,Sales Representative,10558,1,00:00.0,00:00.0,00:00.0,2,72.97
+AROUT,Around the Horn,Thomas Hardy,Sales Representative,10707,4,00:00.0,00:00.0,00:00.0,3,21.74
+AROUT,Around the Horn,Thomas Hardy,Sales Representative,10741,4,00:00.0,00:00.0,00:00.0,3,10.96
+AROUT,Around the Horn,Thomas Hardy,Sales Representative,10743,1,00:00.0,00:00.0,00:00.0,2,23.72
+AROUT,Around the Horn,Thomas Hardy,Sales Representative,10768,3,00:00.0,00:00.0,00:00.0,2,146.32
+AROUT,Around the Horn,Thomas Hardy,Sales Representative,10793,3,00:00.0,00:00.0,00:00.0,3,4.52
+AROUT,Around the Horn,Thomas Hardy,Sales Representative,10864,4,00:00.0,00:00.0,00:00.0,2,3.04
+AROUT,Around the Horn,Thomas Hardy,Sales Representative,10920,4,00:00.0,00:00.0,00:00.0,2,29.61
+AROUT,Around the Horn,Thomas Hardy,Sales Representative,10953,9,00:00.0,00:00.0,00:00.0,2,23.72
+AROUT,Around the Horn,Thomas Hardy,Sales Representative,11016,9,00:00.0,00:00.0,00:00.0,2,33.8
+BERGS,Berglunds snabbköp,Christina Berglund,Order Administrator,10278,8,00:00.0,00:00.0,00:00.0,2,92.69
+BERGS,Berglunds snabbköp,Christina Berglund,Order Administrator,10280,2,00:00.0,00:00.0,00:00.0,1,8.98
+BERGS,Berglunds snabbköp,Christina Berglund,Order Administrator,10384,3,00:00.0,00:00.0,00:00.0,3,168.64
+BERGS,Berglunds snabbköp,Christina Berglund,Order Administrator,10444,3,00:00.0,00:00.0,00:00.0,3,3.5
+BERGS,Berglunds snabbköp,Christina Berglund,Order Administrator,10445,3,00:00.0,00:00.0,00:00.0,1,9.3
+BERGS,Berglunds snabbköp,Christina Berglund,Order Administrator,10524,1,00:00.0,00:00.0,00:00.0,2,244.79
+BERGS,Berglunds snabbköp,Christina Berglund,Order Administrator,10572,3,00:00.0,00:00.0,00:00.0,2,116.43
+BERGS,Berglunds snabbköp,Christina Berglund,Order Administrator,10626,1,00:00.0,00:00.0,00:00.0,2,138.69
+BERGS,Berglunds snabbköp,Christina Berglund,Order Administrator,10654,5,00:00.0,00:00.0,00:00.0,1,55.26
+BERGS,Berglunds snabbköp,Christina Berglund,Order Administrator,10672,9,00:00.0,00:00.0,00:00.0,2,95.75
+BERGS,Berglunds snabbköp,Christina Berglund,Order Administrator,10689,1,00:00.0,00:00.0,00:00.0,2,13.42
+BERGS,Berglunds snabbköp,Christina Berglund,Order Administrator,10733,1,00:00.0,00:00.0,00:00.0,3,110.11
+BERGS,Berglunds snabbköp,Christina Berglund,Order Administrator,10778,3,00:00.0,00:00.0,00:00.0,1,6.79
+BERGS,Berglunds snabbköp,Christina Berglund,Order Administrator,10837,9,00:00.0,00:00.0,00:00.0,3,13.32
+BERGS,Berglunds snabbköp,Christina Berglund,Order Administrator,10857,8,00:00.0,00:00.0,00:00.0,2,188.85
+BERGS,Berglunds snabbköp,Christina Berglund,Order Administrator,10866,5,00:00.0,00:00.0,00:00.0,1,109.11
+BERGS,Berglunds snabbköp,Christina Berglund,Order Administrator,10875,4,00:00.0,00:00.0,00:00.0,2,32.37
+BERGS,Berglunds snabbköp,Christina Berglund,Order Administrator,10924,3,00:00.0,00:00.0,00:00.0,2,151.52
+BLAUS,Blauer See Delikatessen,Hanna Moos,Sales Representative,10501,9,00:00.0,00:00.0,00:00.0,3,8.85
+BLAUS,Blauer See Delikatessen,Hanna Moos,Sales Representative,10509,4,00:00.0,00:00.0,00:00.0,1,0.15
+BLAUS,Blauer See Delikatessen,Hanna Moos,Sales Representative,10582,3,00:00.0,00:00.0,00:00.0,2,27.71
+BLAUS,Blauer See Delikatessen,Hanna Moos,Sales Representative,10614,8,00:00.0,00:00.0,00:00.0,3,1.93
+BLAUS,Blauer See Delikatessen,Hanna Moos,Sales Representative,10853,9,00:00.0,00:00.0,00:00.0,2,53.83
+BLAUS,Blauer See Delikatessen,Hanna Moos,Sales Representative,10956,6,00:00.0,00:00.0,00:00.0,2,44.65
+BLAUS,Blauer See Delikatessen,Hanna Moos,Sales Representative,11058,9,00:00.0,00:00.0,NULL,3,31.14
+BLONP,Blondesddsl père et fils,Frédérique Citeaux,Marketing Manager,10265,2,00:00.0,00:00.0,00:00.0,1,55.28
+BLONP,Blondesddsl père et fils,Frédérique Citeaux,Marketing Manager,10297,5,00:00.0,00:00.0,00:00.0,2,5.74
+BLONP,Blondesddsl père et fils,Frédérique Citeaux,Marketing Manager,10360,4,00:00.0,00:00.0,00:00.0,3,131.7
+BLONP,Blondesddsl père et fils,Frédérique Citeaux,Marketing Manager,10436,3,00:00.0,00:00.0,00:00.0,2,156.66
+BLONP,Blondesddsl père et fils,Frédérique Citeaux,Marketing Manager,10449,3,00:00.0,00:00.0,00:00.0,2,53.3
+BLONP,Blondesddsl père et fils,Frédérique Citeaux,Marketing Manager,10559,6,00:00.0,00:00.0,00:00.0,1,8.05
+BLONP,Blondesddsl père et fils,Frédérique Citeaux,Marketing Manager,10566,9,00:00.0,00:00.0,00:00.0,1,88.4
+BLONP,Blondesddsl père et fils,Frédérique Citeaux,Marketing Manager,10584,4,00:00.0,00:00.0,00:00.0,1,59.14
+BLONP,Blondesddsl père et fils,Frédérique Citeaux,Marketing Manager,10628,4,00:00.0,00:00.0,00:00.0,3,30.36
+BLONP,Blondesddsl père et fils,Frédérique Citeaux,Marketing Manager,10679,8,00:00.0,00:00.0,00:00.0,3,27.94
+BLONP,Blondesddsl père et fils,Frédérique Citeaux,Marketing Manager,10826,6,00:00.0,00:00.0,00:00.0,1,7.09
+BOLID,Bólido Comidas preparadas,Martín Sommer,Owner,10326,4,00:00.0,00:00.0,00:00.0,2,77.92
+BOLID,Bólido Comidas preparadas,Martín Sommer,Owner,10801,4,00:00.0,00:00.0,00:00.0,2,97.09
+BOLID,Bólido Comidas preparadas,Martín Sommer,Owner,10970,9,00:00.0,00:00.0,00:00.0,1,16.16
+BONAP,Bon app',Laurence Lebihan,Owner,10331,9,00:00.0,00:00.0,00:00.0,1,10.19
+BONAP,Bon app',Laurence Lebihan,Owner,10340,1,00:00.0,00:00.0,00:00.0,3,166.31
+BONAP,Bon app',Laurence Lebihan,Owner,10362,3,00:00.0,00:00.0,00:00.0,1,96.04
+BONAP,Bon app',Laurence Lebihan,Owner,10470,4,00:00.0,00:00.0,00:00.0,2,64.56
+BONAP,Bon app',Laurence Lebihan,Owner,10511,4,00:00.0,00:00.0,00:00.0,3,350.64
+BONAP,Bon app',Laurence Lebihan,Owner,10525,1,00:00.0,00:00.0,00:00.0,2,11.06
+BONAP,Bon app',Laurence Lebihan,Owner,10663,2,00:00.0,00:00.0,00:00.0,2,113.15
+BONAP,Bon app',Laurence Lebihan,Owner,10715,3,00:00.0,00:00.0,00:00.0,1,63.2
+BONAP,Bon app',Laurence Lebihan,Owner,10730,5,00:00.0,00:00.0,00:00.0,1,20.12
+BONAP,Bon app',Laurence Lebihan,Owner,10732,3,00:00.0,00:00.0,00:00.0,1,16.97
+BONAP,Bon app',Laurence Lebihan,Owner,10755,4,00:00.0,00:00.0,00:00.0,2,16.71
+BONAP,Bon app',Laurence Lebihan,Owner,10827,1,00:00.0,00:00.0,00:00.0,2,63.54
+BONAP,Bon app',Laurence Lebihan,Owner,10871,9,00:00.0,00:00.0,00:00.0,2,112.27
+BONAP,Bon app',Laurence Lebihan,Owner,10876,7,00:00.0,00:00.0,00:00.0,3,60.42
+BONAP,Bon app',Laurence Lebihan,Owner,10932,8,00:00.0,00:00.0,00:00.0,1,134.64
+BONAP,Bon app',Laurence Lebihan,Owner,10940,8,00:00.0,00:00.0,00:00.0,3,19.77
+BONAP,Bon app',Laurence Lebihan,Owner,11076,4,00:00.0,00:00.0,NULL,2,38.28
+BOTTM,Bottom-Dollar Markets,Elizabeth Lincoln,Accounting Manager,10389,4,00:00.0,00:00.0,00:00.0,2,47.42
+BOTTM,Bottom-Dollar Markets,Elizabeth Lincoln,Accounting Manager,10410,3,00:00.0,00:00.0,00:00.0,3,2.4
+BOTTM,Bottom-Dollar Markets,Elizabeth Lincoln,Accounting Manager,10411,9,00:00.0,00:00.0,00:00.0,3,23.65
+BOTTM,Bottom-Dollar Markets,Elizabeth Lincoln,Accounting Manager,10431,4,00:00.0,00:00.0,00:00.0,2,44.17
+BOTTM,Bottom-Dollar Markets,Elizabeth Lincoln,Accounting Manager,10492,3,00:00.0,00:00.0,00:00.0,1,62.89
+BOTTM,Bottom-Dollar Markets,Elizabeth Lincoln,Accounting Manager,10742,3,00:00.0,00:00.0,00:00.0,3,243.73
+BOTTM,Bottom-Dollar Markets,Elizabeth Lincoln,Accounting Manager,10918,3,00:00.0,00:00.0,00:00.0,3,48.83
+BOTTM,Bottom-Dollar Markets,Elizabeth Lincoln,Accounting Manager,10944,6,00:00.0,00:00.0,00:00.0,3,52.92
+BOTTM,Bottom-Dollar Markets,Elizabeth Lincoln,Accounting Manager,10949,2,00:00.0,00:00.0,00:00.0,3,74.44
+BOTTM,Bottom-Dollar Markets,Elizabeth Lincoln,Accounting Manager,10975,1,00:00.0,00:00.0,00:00.0,3,32.27
+BOTTM,Bottom-Dollar Markets,Elizabeth Lincoln,Accounting Manager,10982,2,00:00.0,00:00.0,00:00.0,1,14.01
+BOTTM,Bottom-Dollar Markets,Elizabeth Lincoln,Accounting Manager,11027,1,00:00.0,00:00.0,00:00.0,1,52.52
+BOTTM,Bottom-Dollar Markets,Elizabeth Lincoln,Accounting Manager,11045,6,00:00.0,00:00.0,NULL,2,70.58
+BOTTM,Bottom-Dollar Markets,Elizabeth Lincoln,Accounting Manager,11048,7,00:00.0,00:00.0,00:00.0,3,24.12
+BSBEV,B's Beverages,Victoria Ashworth,Sales Representative,10289,7,00:00.0,00:00.0,00:00.0,3,22.77
+BSBEV,B's Beverages,Victoria Ashworth,Sales Representative,10471,2,00:00.0,00:00.0,00:00.0,3,45.59
+BSBEV,B's Beverages,Victoria Ashworth,Sales Representative,10484,3,00:00.0,00:00.0,00:00.0,3,6.88
+BSBEV,B's Beverages,Victoria Ashworth,Sales Representative,10538,9,00:00.0,00:00.0,00:00.0,3,4.87
+BSBEV,B's Beverages,Victoria Ashworth,Sales Representative,10539,6,00:00.0,00:00.0,00:00.0,3,12.36
+BSBEV,B's Beverages,Victoria Ashworth,Sales Representative,10578,4,00:00.0,00:00.0,00:00.0,3,29.6
+BSBEV,B's Beverages,Victoria Ashworth,Sales Representative,10599,6,00:00.0,00:00.0,00:00.0,3,29.98
+BSBEV,B's Beverages,Victoria Ashworth,Sales Representative,10943,4,00:00.0,00:00.0,00:00.0,2,2.17
+BSBEV,B's Beverages,Victoria Ashworth,Sales Representative,10947,3,00:00.0,00:00.0,00:00.0,2,3.26
+BSBEV,B's Beverages,Victoria Ashworth,Sales Representative,11023,1,00:00.0,00:00.0,00:00.0,2,123.83
+CACTU,Cactus Comidas para llevar,Patricio Simpson,Sales Agent,10521,8,00:00.0,00:00.0,00:00.0,2,17.22
+CACTU,Cactus Comidas para llevar,Patricio Simpson,Sales Agent,10782,9,00:00.0,00:00.0,00:00.0,3,1.1
+CACTU,Cactus Comidas para llevar,Patricio Simpson,Sales Agent,10819,2,00:00.0,00:00.0,00:00.0,3,19.76
+CACTU,Cactus Comidas para llevar,Patricio Simpson,Sales Agent,10881,4,00:00.0,00:00.0,00:00.0,1,2.84
+CACTU,Cactus Comidas para llevar,Patricio Simpson,Sales Agent,10937,7,00:00.0,00:00.0,00:00.0,3,31.51
+CACTU,Cactus Comidas para llevar,Patricio Simpson,Sales Agent,11054,8,00:00.0,00:00.0,NULL,1,0.33
+CENTC,Centro comercial Moctezuma,Francisco Chang,Marketing Manager,10259,4,00:00.0,00:00.0,00:00.0,3,3.25
+CHOPS,Chop-suey Chinese,Yang Wang,Owner,10254,5,00:00.0,00:00.0,00:00.0,2,22.98
+CHOPS,Chop-suey Chinese,Yang Wang,Owner,10370,6,00:00.0,00:00.0,00:00.0,2,1.17
+CHOPS,Chop-suey Chinese,Yang Wang,Owner,10519,6,00:00.0,00:00.0,00:00.0,3,91.76
+CHOPS,Chop-suey Chinese,Yang Wang,Owner,10731,7,00:00.0,00:00.0,00:00.0,1,96.65
+CHOPS,Chop-suey Chinese,Yang Wang,Owner,10746,1,00:00.0,00:00.0,00:00.0,3,31.43
+CHOPS,Chop-suey Chinese,Yang Wang,Owner,10966,4,00:00.0,00:00.0,00:00.0,1,27.19
+CHOPS,Chop-suey Chinese,Yang Wang,Owner,11029,4,00:00.0,00:00.0,00:00.0,1,47.84
+CHOPS,Chop-suey Chinese,Yang Wang,Owner,11041,3,00:00.0,00:00.0,00:00.0,2,48.22
+COMMI,Comércio Mineiro,Pedro Afonso,Sales Associate,10290,8,00:00.0,00:00.0,00:00.0,1,79.7
+COMMI,Comércio Mineiro,Pedro Afonso,Sales Associate,10466,4,00:00.0,00:00.0,00:00.0,1,11.93
+COMMI,Comércio Mineiro,Pedro Afonso,Sales Associate,10494,4,00:00.0,00:00.0,00:00.0,2,65.99
+COMMI,Comércio Mineiro,Pedro Afonso,Sales Associate,10969,1,00:00.0,00:00.0,00:00.0,2,0.21
+COMMI,Comércio Mineiro,Pedro Afonso,Sales Associate,11042,2,00:00.0,00:00.0,00:00.0,1,29.99
+CONSH,Consolidated Holdings,Elizabeth Brown,Sales Representative,10435,8,00:00.0,00:00.0,00:00.0,2,9.21
+CONSH,Consolidated Holdings,Elizabeth Brown,Sales Representative,10462,2,00:00.0,00:00.0,00:00.0,1,6.17
+CONSH,Consolidated Holdings,Elizabeth Brown,Sales Representative,10848,7,00:00.0,00:00.0,00:00.0,2,38.24
+DRACD,Drachenblut Delikatessen,Sven Ottlieb,Order Administrator,10363,4,00:00.0,00:00.0,00:00.0,3,30.54
+DRACD,Drachenblut Delikatessen,Sven Ottlieb,Order Administrator,10391,3,00:00.0,00:00.0,00:00.0,3,5.45
+DRACD,Drachenblut Delikatessen,Sven Ottlieb,Order Administrator,10797,7,00:00.0,00:00.0,00:00.0,2,33.35
+DRACD,Drachenblut Delikatessen,Sven Ottlieb,Order Administrator,10825,1,00:00.0,00:00.0,00:00.0,1,79.25
+DRACD,Drachenblut Delikatessen,Sven Ottlieb,Order Administrator,11036,8,00:00.0,00:00.0,00:00.0,3,149.47
+DRACD,Drachenblut Delikatessen,Sven Ottlieb,Order Administrator,11067,1,00:00.0,00:00.0,00:00.0,2,7.98
+DUMON,Du monde entier,Janine Labrune,Owner,10311,1,00:00.0,00:00.0,00:00.0,3,24.69
+DUMON,Du monde entier,Janine Labrune,Owner,10609,7,00:00.0,00:00.0,00:00.0,2,1.85
+DUMON,Du monde entier,Janine Labrune,Owner,10683,2,00:00.0,00:00.0,00:00.0,1,4.4
+DUMON,Du monde entier,Janine Labrune,Owner,10890,7,00:00.0,00:00.0,00:00.0,1,32.76
+EASTC,Eastern Connection,Ann Devon,Sales Agent,10364,1,00:00.0,00:00.0,00:00.0,1,71.97
+EASTC,Eastern Connection,Ann Devon,Sales Agent,10400,1,00:00.0,00:00.0,00:00.0,3,83.93
+EASTC,Eastern Connection,Ann Devon,Sales Agent,10532,7,00:00.0,00:00.0,00:00.0,3,74.46
+EASTC,Eastern Connection,Ann Devon,Sales Agent,10726,4,00:00.0,00:00.0,00:00.0,1,16.56
+EASTC,Eastern Connection,Ann Devon,Sales Agent,10987,8,00:00.0,00:00.0,00:00.0,1,185.48
+EASTC,Eastern Connection,Ann Devon,Sales Agent,11024,4,00:00.0,00:00.0,00:00.0,1,74.36
+EASTC,Eastern Connection,Ann Devon,Sales Agent,11047,7,00:00.0,00:00.0,00:00.0,3,46.62
+EASTC,Eastern Connection,Ann Devon,Sales Agent,11056,8,00:00.0,00:00.0,00:00.0,2,278.96
+ERNSH,Ernst Handel,Roland Mendel,Sales Manager,10258,1,00:00.0,00:00.0,00:00.0,1,140.51
+ERNSH,Ernst Handel,Roland Mendel,Sales Manager,10263,9,00:00.0,00:00.0,00:00.0,3,146.06
+ERNSH,Ernst Handel,Roland Mendel,Sales Manager,10351,1,00:00.0,00:00.0,00:00.0,1,162.33
+ERNSH,Ernst Handel,Roland Mendel,Sales Manager,10368,2,00:00.0,00:00.0,00:00.0,2,101.95
+ERNSH,Ernst Handel,Roland Mendel,Sales Manager,10382,4,00:00.0,00:00.0,00:00.0,1,94.77
+ERNSH,Ernst Handel,Roland Mendel,Sales Manager,10390,6,00:00.0,00:00.0,00:00.0,1,126.38
+ERNSH,Ernst Handel,Roland Mendel,Sales Manager,10402,8,00:00.0,00:00.0,00:00.0,2,67.88
+ERNSH,Ernst Handel,Roland Mendel,Sales Manager,10403,4,00:00.0,00:00.0,00:00.0,3,73.79
+ERNSH,Ernst Handel,Roland Mendel,Sales Manager,10430,4,00:00.0,00:00.0,00:00.0,1,458.78
+ERNSH,Ernst Handel,Roland Mendel,Sales Manager,10442,3,00:00.0,00:00.0,00:00.0,2,47.94
+ERNSH,Ernst Handel,Roland Mendel,Sales Manager,10514,3,00:00.0,00:00.0,00:00.0,2,789.95
+ERNSH,Ernst Handel,Roland Mendel,Sales Manager,10571,8,00:00.0,00:00.0,00:00.0,3,26.06
+ERNSH,Ernst Handel,Roland Mendel,Sales Manager,10595,2,00:00.0,00:00.0,00:00.0,1,96.78
+ERNSH,Ernst Handel,Roland Mendel,Sales Manager,10633,7,00:00.0,00:00.0,00:00.0,3,477.9
+ERNSH,Ernst Handel,Roland Mendel,Sales Manager,10667,7,00:00.0,00:00.0,00:00.0,1,78.09
+ERNSH,Ernst Handel,Roland Mendel,Sales Manager,10698,4,00:00.0,00:00.0,00:00.0,1,272.47
+ERNSH,Ernst Handel,Roland Mendel,Sales Manager,10764,6,00:00.0,00:00.0,00:00.0,3,145.45
+ERNSH,Ernst Handel,Roland Mendel,Sales Manager,10771,9,00:00.0,00:00.0,00:00.0,2,11.19
+ERNSH,Ernst Handel,Roland Mendel,Sales Manager,10773,1,00:00.0,00:00.0,00:00.0,3,96.43
+ERNSH,Ernst Handel,Roland Mendel,Sales Manager,10776,1,00:00.0,00:00.0,00:00.0,3,351.53
+ERNSH,Ernst Handel,Roland Mendel,Sales Manager,10795,8,00:00.0,00:00.0,00:00.0,2,126.66
+ERNSH,Ernst Handel,Roland Mendel,Sales Manager,10836,7,00:00.0,00:00.0,00:00.0,1,411.88
+ERNSH,Ernst Handel,Roland Mendel,Sales Manager,10854,3,00:00.0,00:00.0,00:00.0,2,100.22
+ERNSH,Ernst Handel,Roland Mendel,Sales Manager,10895,3,00:00.0,00:00.0,00:00.0,1,162.75
+ERNSH,Ernst Handel,Roland Mendel,Sales Manager,10968,1,00:00.0,00:00.0,00:00.0,3,74.6
+ERNSH,Ernst Handel,Roland Mendel,Sales Manager,10979,8,00:00.0,00:00.0,00:00.0,2,353.07
+ERNSH,Ernst Handel,Roland Mendel,Sales Manager,10990,2,00:00.0,00:00.0,00:00.0,3,117.61
+ERNSH,Ernst Handel,Roland Mendel,Sales Manager,11008,7,00:00.0,00:00.0,NULL,3,79.46
+ERNSH,Ernst Handel,Roland Mendel,Sales Manager,11017,9,00:00.0,00:00.0,00:00.0,2,754.26
+ERNSH,Ernst Handel,Roland Mendel,Sales Manager,11072,4,00:00.0,00:00.0,NULL,2,258.64
+FAMIA,Familia Arquibaldo,Aria Cruz,Marketing Assistant,10347,4,00:00.0,00:00.0,00:00.0,3,3.1
+FAMIA,Familia Arquibaldo,Aria Cruz,Marketing Assistant,10386,9,00:00.0,00:00.0,00:00.0,3,13.99
+FAMIA,Familia Arquibaldo,Aria Cruz,Marketing Assistant,10414,2,00:00.0,00:00.0,00:00.0,3,21.48
+FAMIA,Familia Arquibaldo,Aria Cruz,Marketing Assistant,10512,7,00:00.0,00:00.0,00:00.0,2,3.53
+FAMIA,Familia Arquibaldo,Aria Cruz,Marketing Assistant,10581,3,00:00.0,00:00.0,00:00.0,1,3.01
+FAMIA,Familia Arquibaldo,Aria Cruz,Marketing Assistant,10650,5,00:00.0,00:00.0,00:00.0,3,176.81
+FAMIA,Familia Arquibaldo,Aria Cruz,Marketing Assistant,10725,4,00:00.0,00:00.0,00:00.0,3,10.83
+FOLIG,Folies gourmandes,Martine Rancé,Assistant Sales Agent,10408,8,00:00.0,00:00.0,00:00.0,1,11.26
+FOLIG,Folies gourmandes,Martine Rancé,Assistant Sales Agent,10480,6,00:00.0,00:00.0,00:00.0,2,1.35
+FOLIG,Folies gourmandes,Martine Rancé,Assistant Sales Agent,10634,4,00:00.0,00:00.0,00:00.0,3,487.38
+FOLIG,Folies gourmandes,Martine Rancé,Assistant Sales Agent,10763,3,00:00.0,00:00.0,00:00.0,3,37.35
+FOLIG,Folies gourmandes,Martine Rancé,Assistant Sales Agent,10789,1,00:00.0,00:00.0,00:00.0,2,100.6
+FOLKO,Folk och fä HB,Maria Larsson,Owner,10264,6,00:00.0,00:00.0,00:00.0,3,3.67
+FOLKO,Folk och fä HB,Maria Larsson,Owner,10327,2,00:00.0,00:00.0,00:00.0,1,63.36
+FOLKO,Folk och fä HB,Maria Larsson,Owner,10378,5,00:00.0,00:00.0,00:00.0,3,5.44
+FOLKO,Folk och fä HB,Maria Larsson,Owner,10434,3,00:00.0,00:00.0,00:00.0,2,17.92
+FOLKO,Folk och fä HB,Maria Larsson,Owner,10460,8,00:00.0,00:00.0,00:00.0,1,16.27
+FOLKO,Folk och fä HB,Maria Larsson,Owner,10533,8,00:00.0,00:00.0,00:00.0,1,188.04
+FOLKO,Folk och fä HB,Maria Larsson,Owner,10561,2,00:00.0,00:00.0,00:00.0,2,242.21
+FOLKO,Folk och fä HB,Maria Larsson,Owner,10703,6,00:00.0,00:00.0,00:00.0,2,152.3
+FOLKO,Folk och fä HB,Maria Larsson,Owner,10762,3,00:00.0,00:00.0,00:00.0,1,328.74
+FOLKO,Folk och fä HB,Maria Larsson,Owner,10774,4,00:00.0,00:00.0,00:00.0,1,48.2
+FOLKO,Folk och fä HB,Maria Larsson,Owner,10824,8,00:00.0,00:00.0,00:00.0,1,1.23
+FOLKO,Folk och fä HB,Maria Larsson,Owner,10880,7,00:00.0,00:00.0,00:00.0,1,88.01
+FOLKO,Folk och fä HB,Maria Larsson,Owner,10902,1,00:00.0,00:00.0,00:00.0,1,44.15
+FOLKO,Folk och fä HB,Maria Larsson,Owner,10955,8,00:00.0,00:00.0,00:00.0,2,3.26
+FOLKO,Folk och fä HB,Maria Larsson,Owner,10977,8,00:00.0,00:00.0,00:00.0,3,208.5
+FOLKO,Folk och fä HB,Maria Larsson,Owner,10980,4,00:00.0,00:00.0,00:00.0,1,1.26
+FOLKO,Folk och fä HB,Maria Larsson,Owner,10993,7,00:00.0,00:00.0,00:00.0,3,8.81
+FOLKO,Folk och fä HB,Maria Larsson,Owner,11001,2,00:00.0,00:00.0,00:00.0,2,197.3
+FOLKO,Folk och fä HB,Maria Larsson,Owner,11050,8,00:00.0,00:00.0,00:00.0,2,59.41
+FRANK,Frankenversand,Peter Franken,Marketing Manager,10267,4,00:00.0,00:00.0,00:00.0,1,208.58
+FRANK,Frankenversand,Peter Franken,Marketing Manager,10337,4,00:00.0,00:00.0,00:00.0,3,108.26
+FRANK,Frankenversand,Peter Franken,Marketing Manager,10342,4,00:00.0,00:00.0,00:00.0,2,54.83
+FRANK,Frankenversand,Peter Franken,Marketing Manager,10396,1,00:00.0,00:00.0,00:00.0,3,135.35
+FRANK,Frankenversand,Peter Franken,Marketing Manager,10488,8,00:00.0,00:00.0,00:00.0,2,4.93
+FRANK,Frankenversand,Peter Franken,Marketing Manager,10560,8,00:00.0,00:00.0,00:00.0,1,36.65
+FRANK,Frankenversand,Peter Franken,Marketing Manager,10623,8,00:00.0,00:00.0,00:00.0,2,97.18
+FRANK,Frankenversand,Peter Franken,Marketing Manager,10653,1,00:00.0,00:00.0,00:00.0,1,93.25
+FRANK,Frankenversand,Peter Franken,Marketing Manager,10670,4,00:00.0,00:00.0,00:00.0,1,203.48
+FRANK,Frankenversand,Peter Franken,Marketing Manager,10675,5,00:00.0,00:00.0,00:00.0,2,31.85
+FRANK,Frankenversand,Peter Franken,Marketing Manager,10717,1,00:00.0,00:00.0,00:00.0,2,59.25
+FRANK,Frankenversand,Peter Franken,Marketing Manager,10791,6,00:00.0,00:00.0,00:00.0,2,16.85
+FRANK,Frankenversand,Peter Franken,Marketing Manager,10859,1,00:00.0,00:00.0,00:00.0,2,76.1
+FRANK,Frankenversand,Peter Franken,Marketing Manager,10929,6,00:00.0,00:00.0,00:00.0,1,33.93
+FRANK,Frankenversand,Peter Franken,Marketing Manager,11012,1,00:00.0,00:00.0,00:00.0,3,242.95
+FRANR,France restauration,Carine Schmitt,Marketing Manager,10671,1,00:00.0,00:00.0,00:00.0,1,30.34
+FRANR,France restauration,Carine Schmitt,Marketing Manager,10860,3,00:00.0,00:00.0,00:00.0,3,19.26
+FRANR,France restauration,Carine Schmitt,Marketing Manager,10971,2,00:00.0,00:00.0,00:00.0,2,121.82
+FRANS,Franchi S.p.A.,Paolo Accorti,Sales Representative,10422,2,00:00.0,00:00.0,00:00.0,1,3.02
+FRANS,Franchi S.p.A.,Paolo Accorti,Sales Representative,10710,1,00:00.0,00:00.0,00:00.0,1,4.98
+FRANS,Franchi S.p.A.,Paolo Accorti,Sales Representative,10753,3,00:00.0,00:00.0,00:00.0,1,7.7
+FRANS,Franchi S.p.A.,Paolo Accorti,Sales Representative,10807,4,00:00.0,00:00.0,00:00.0,1,1.36
+FRANS,Franchi S.p.A.,Paolo Accorti,Sales Representative,11026,4,00:00.0,00:00.0,00:00.0,1,47.09
+FRANS,Franchi S.p.A.,Paolo Accorti,Sales Representative,11060,2,00:00.0,00:00.0,00:00.0,2,10.98
+FURIB,Furia Bacalhau e Frutos do Mar,Lino Rodriguez,Sales Manager,10328,4,00:00.0,00:00.0,00:00.0,3,87.03
+FURIB,Furia Bacalhau e Frutos do Mar,Lino Rodriguez,Sales Manager,10352,3,00:00.0,00:00.0,00:00.0,3,1.3
+FURIB,Furia Bacalhau e Frutos do Mar,Lino Rodriguez,Sales Manager,10464,4,00:00.0,00:00.0,00:00.0,2,89
+FURIB,Furia Bacalhau e Frutos do Mar,Lino Rodriguez,Sales Manager,10491,8,00:00.0,00:00.0,00:00.0,3,16.96
+FURIB,Furia Bacalhau e Frutos do Mar,Lino Rodriguez,Sales Manager,10551,4,00:00.0,00:00.0,00:00.0,3,72.95
+FURIB,Furia Bacalhau e Frutos do Mar,Lino Rodriguez,Sales Manager,10604,1,00:00.0,00:00.0,00:00.0,1,7.46
+FURIB,Furia Bacalhau e Frutos do Mar,Lino Rodriguez,Sales Manager,10664,1,00:00.0,00:00.0,00:00.0,3,1.27
+FURIB,Furia Bacalhau e Frutos do Mar,Lino Rodriguez,Sales Manager,10963,9,00:00.0,00:00.0,00:00.0,3,2.7
+GALED,Galería del gastrónomo,Eduardo Saavedra,Marketing Manager,10366,8,00:00.0,00:00.0,00:00.0,2,10.14
+GALED,Galería del gastrónomo,Eduardo Saavedra,Marketing Manager,10426,4,00:00.0,00:00.0,00:00.0,1,18.69
+GALED,Galería del gastrónomo,Eduardo Saavedra,Marketing Manager,10568,3,00:00.0,00:00.0,00:00.0,3,6.54
+GALED,Galería del gastrónomo,Eduardo Saavedra,Marketing Manager,10887,8,00:00.0,00:00.0,00:00.0,3,1.25
+GALED,Galería del gastrónomo,Eduardo Saavedra,Marketing Manager,10928,1,00:00.0,00:00.0,00:00.0,1,1.36
+GODOS,Godos Cocina Típica,José Pedro Freyre,Sales Manager,10303,7,00:00.0,00:00.0,00:00.0,2,107.83
+GODOS,Godos Cocina Típica,José Pedro Freyre,Sales Manager,10550,7,00:00.0,00:00.0,00:00.0,3,4.32
+GODOS,Godos Cocina Típica,José Pedro Freyre,Sales Manager,10629,4,00:00.0,00:00.0,00:00.0,3,85.46
+GODOS,Godos Cocina Típica,José Pedro Freyre,Sales Manager,10872,5,00:00.0,00:00.0,00:00.0,2,175.32
+GODOS,Godos Cocina Típica,José Pedro Freyre,Sales Manager,10874,5,00:00.0,00:00.0,00:00.0,2,19.58
+GODOS,Godos Cocina Típica,José Pedro Freyre,Sales Manager,10888,1,00:00.0,00:00.0,00:00.0,2,51.87
+GODOS,Godos Cocina Típica,José Pedro Freyre,Sales Manager,10911,3,00:00.0,00:00.0,00:00.0,1,38.19
+GODOS,Godos Cocina Típica,José Pedro Freyre,Sales Manager,10948,3,00:00.0,00:00.0,00:00.0,3,23.39
+GODOS,Godos Cocina Típica,José Pedro Freyre,Sales Manager,11009,2,00:00.0,00:00.0,00:00.0,1,59.11
+GODOS,Godos Cocina Típica,José Pedro Freyre,Sales Manager,11037,7,00:00.0,00:00.0,00:00.0,1,3.2
+GOURL,Gourmet Lanchonetes,André Fonseca,Sales Associate,10423,6,00:00.0,00:00.0,00:00.0,3,24.5
+GOURL,Gourmet Lanchonetes,André Fonseca,Sales Associate,10652,4,00:00.0,00:00.0,00:00.0,2,7.14
+GOURL,Gourmet Lanchonetes,André Fonseca,Sales Associate,10685,4,00:00.0,00:00.0,00:00.0,2,33.75
+GOURL,Gourmet Lanchonetes,André Fonseca,Sales Associate,10709,1,00:00.0,00:00.0,00:00.0,3,210.8
+GOURL,Gourmet Lanchonetes,André Fonseca,Sales Associate,10734,2,00:00.0,00:00.0,00:00.0,3,1.63
+GOURL,Gourmet Lanchonetes,André Fonseca,Sales Associate,10777,7,00:00.0,00:00.0,00:00.0,2,3.01
+GOURL,Gourmet Lanchonetes,André Fonseca,Sales Associate,10790,6,00:00.0,00:00.0,00:00.0,1,28.23
+GOURL,Gourmet Lanchonetes,André Fonseca,Sales Associate,10959,6,00:00.0,00:00.0,00:00.0,2,4.98
+GOURL,Gourmet Lanchonetes,André Fonseca,Sales Associate,11049,3,00:00.0,00:00.0,00:00.0,1,8.34
+GREAL,Great Lakes Food Market,Howard Snyder,Marketing Manager,10528,6,00:00.0,00:00.0,00:00.0,2,3.35
+GREAL,Great Lakes Food Market,Howard Snyder,Marketing Manager,10589,8,00:00.0,00:00.0,00:00.0,2,4.42
+GREAL,Great Lakes Food Market,Howard Snyder,Marketing Manager,10616,1,00:00.0,00:00.0,00:00.0,2,116.53
+GREAL,Great Lakes Food Market,Howard Snyder,Marketing Manager,10617,4,00:00.0,00:00.0,00:00.0,2,18.53
+GREAL,Great Lakes Food Market,Howard Snyder,Marketing Manager,10656,6,00:00.0,00:00.0,00:00.0,1,57.15
+GREAL,Great Lakes Food Market,Howard Snyder,Marketing Manager,10681,3,00:00.0,00:00.0,00:00.0,3,76.13
+GREAL,Great Lakes Food Market,Howard Snyder,Marketing Manager,10816,4,00:00.0,00:00.0,00:00.0,2,719.78
+GREAL,Great Lakes Food Market,Howard Snyder,Marketing Manager,10936,3,00:00.0,00:00.0,00:00.0,2,33.68
+GREAL,Great Lakes Food Market,Howard Snyder,Marketing Manager,11006,3,00:00.0,00:00.0,00:00.0,2,25.19
+GREAL,Great Lakes Food Market,Howard Snyder,Marketing Manager,11040,4,00:00.0,00:00.0,NULL,3,18.84
+GREAL,Great Lakes Food Market,Howard Snyder,Marketing Manager,11061,4,00:00.0,00:00.0,NULL,3,14.01
+GROSR,GROSELLA-Restaurante,Manuel Pereira,Owner,10268,8,00:00.0,00:00.0,00:00.0,3,66.29
+GROSR,GROSELLA-Restaurante,Manuel Pereira,Owner,10785,1,00:00.0,00:00.0,00:00.0,3,1.51
+HANAR,Hanari Carnes,Mario Pontes,Accounting Manager,10250,4,00:00.0,00:00.0,00:00.0,2,65.83
+HANAR,Hanari Carnes,Mario Pontes,Accounting Manager,10253,3,00:00.0,00:00.0,00:00.0,2,58.17
+HANAR,Hanari Carnes,Mario Pontes,Accounting Manager,10541,2,00:00.0,00:00.0,00:00.0,1,68.65
+HANAR,Hanari Carnes,Mario Pontes,Accounting Manager,10645,4,00:00.0,00:00.0,00:00.0,1,12.41
+HANAR,Hanari Carnes,Mario Pontes,Accounting Manager,10690,1,00:00.0,00:00.0,00:00.0,1,15.8
+HANAR,Hanari Carnes,Mario Pontes,Accounting Manager,10770,8,00:00.0,00:00.0,00:00.0,3,5.32
+HANAR,Hanari Carnes,Mario Pontes,Accounting Manager,10783,4,00:00.0,00:00.0,00:00.0,2,124.98
+HANAR,Hanari Carnes,Mario Pontes,Accounting Manager,10886,1,00:00.0,00:00.0,00:00.0,1,4.99
+HANAR,Hanari Carnes,Mario Pontes,Accounting Manager,10903,3,00:00.0,00:00.0,00:00.0,3,36.71
+HANAR,Hanari Carnes,Mario Pontes,Accounting Manager,10922,5,00:00.0,00:00.0,00:00.0,3,62.74
+HANAR,Hanari Carnes,Mario Pontes,Accounting Manager,10925,3,00:00.0,00:00.0,00:00.0,1,2.27
+HANAR,Hanari Carnes,Mario Pontes,Accounting Manager,10981,1,00:00.0,00:00.0,00:00.0,2,193.37
+HANAR,Hanari Carnes,Mario Pontes,Accounting Manager,11022,9,00:00.0,00:00.0,00:00.0,2,6.27
+HANAR,Hanari Carnes,Mario Pontes,Accounting Manager,11052,3,00:00.0,00:00.0,00:00.0,1,67.26
+HILAA,HILARION-Abastos,Carlos Hernández,Sales Representative,10257,4,00:00.0,00:00.0,00:00.0,3,81.91
+HILAA,HILARION-Abastos,Carlos Hernández,Sales Representative,10395,6,00:00.0,00:00.0,00:00.0,1,184.41
+HILAA,HILARION-Abastos,Carlos Hernández,Sales Representative,10476,8,00:00.0,00:00.0,00:00.0,3,4.41
+HILAA,HILARION-Abastos,Carlos Hernández,Sales Representative,10486,1,00:00.0,00:00.0,00:00.0,2,30.53
+HILAA,HILARION-Abastos,Carlos Hernández,Sales Representative,10490,7,00:00.0,00:00.0,00:00.0,2,210.19
+HILAA,HILARION-Abastos,Carlos Hernández,Sales Representative,10498,8,00:00.0,00:00.0,00:00.0,2,29.75
+HILAA,HILARION-Abastos,Carlos Hernández,Sales Representative,10552,2,00:00.0,00:00.0,00:00.0,1,83.22
+HILAA,HILARION-Abastos,Carlos Hernández,Sales Representative,10601,7,00:00.0,00:00.0,00:00.0,1,58.3
+HILAA,HILARION-Abastos,Carlos Hernández,Sales Representative,10613,4,00:00.0,00:00.0,00:00.0,2,8.11
+HILAA,HILARION-Abastos,Carlos Hernández,Sales Representative,10641,4,00:00.0,00:00.0,00:00.0,2,179.61
+HILAA,HILARION-Abastos,Carlos Hernández,Sales Representative,10705,9,00:00.0,00:00.0,00:00.0,2,3.52
+HILAA,HILARION-Abastos,Carlos Hernández,Sales Representative,10796,3,00:00.0,00:00.0,00:00.0,1,26.52
+HILAA,HILARION-Abastos,Carlos Hernández,Sales Representative,10863,4,00:00.0,00:00.0,00:00.0,2,30.26
+HILAA,HILARION-Abastos,Carlos Hernández,Sales Representative,10901,4,00:00.0,00:00.0,00:00.0,1,62.09
+HILAA,HILARION-Abastos,Carlos Hernández,Sales Representative,10957,8,00:00.0,00:00.0,00:00.0,3,105.36
+HILAA,HILARION-Abastos,Carlos Hernández,Sales Representative,10960,3,00:00.0,00:00.0,00:00.0,1,2.08
+HILAA,HILARION-Abastos,Carlos Hernández,Sales Representative,10976,1,00:00.0,00:00.0,00:00.0,1,37.97
+HILAA,HILARION-Abastos,Carlos Hernández,Sales Representative,11055,7,00:00.0,00:00.0,00:00.0,2,120.92
+HUNGC,Hungry Coyote Import Store,Yoshi Latimer,Sales Representative,10375,3,00:00.0,00:00.0,00:00.0,2,20.12
+HUNGC,Hungry Coyote Import Store,Yoshi Latimer,Sales Representative,10394,1,00:00.0,00:00.0,00:00.0,3,30.34
+HUNGC,Hungry Coyote Import Store,Yoshi Latimer,Sales Representative,10415,3,00:00.0,00:00.0,00:00.0,1,0.2
+HUNGC,Hungry Coyote Import Store,Yoshi Latimer,Sales Representative,10600,4,00:00.0,00:00.0,00:00.0,1,45.13
+HUNGC,Hungry Coyote Import Store,Yoshi Latimer,Sales Representative,10660,8,00:00.0,00:00.0,00:00.0,1,111.29
+HUNGO,Hungry Owl All-Night Grocers,Patricia McKenna,Sales Associate,10298,6,00:00.0,00:00.0,00:00.0,2,168.22
+HUNGO,Hungry Owl All-Night Grocers,Patricia McKenna,Sales Associate,10309,3,00:00.0,00:00.0,00:00.0,1,47.3
+HUNGO,Hungry Owl All-Night Grocers,Patricia McKenna,Sales Associate,10335,7,00:00.0,00:00.0,00:00.0,2,42.11
+HUNGO,Hungry Owl All-Night Grocers,Patricia McKenna,Sales Associate,10373,4,00:00.0,00:00.0,00:00.0,3,124.12
+HUNGO,Hungry Owl All-Night Grocers,Patricia McKenna,Sales Associate,10380,8,00:00.0,00:00.0,00:00.0,3,35.03
+HUNGO,Hungry Owl All-Night Grocers,Patricia McKenna,Sales Associate,10429,3,00:00.0,00:00.0,00:00.0,2,56.63
+HUNGO,Hungry Owl All-Night Grocers,Patricia McKenna,Sales Associate,10503,6,00:00.0,00:00.0,00:00.0,2,16.74
+HUNGO,Hungry Owl All-Night Grocers,Patricia McKenna,Sales Associate,10516,2,00:00.0,00:00.0,00:00.0,3,62.78
+HUNGO,Hungry Owl All-Night Grocers,Patricia McKenna,Sales Associate,10567,1,00:00.0,00:00.0,00:00.0,1,33.97
+HUNGO,Hungry Owl All-Night Grocers,Patricia McKenna,Sales Associate,10646,9,00:00.0,00:00.0,00:00.0,3,142.33
+HUNGO,Hungry Owl All-Night Grocers,Patricia McKenna,Sales Associate,10661,7,00:00.0,00:00.0,00:00.0,3,17.55
+HUNGO,Hungry Owl All-Night Grocers,Patricia McKenna,Sales Associate,10687,9,00:00.0,00:00.0,00:00.0,2,296.43
+HUNGO,Hungry Owl All-Night Grocers,Patricia McKenna,Sales Associate,10701,6,00:00.0,00:00.0,00:00.0,3,220.31
+HUNGO,Hungry Owl All-Night Grocers,Patricia McKenna,Sales Associate,10712,3,00:00.0,00:00.0,00:00.0,1,89.93
+HUNGO,Hungry Owl All-Night Grocers,Patricia McKenna,Sales Associate,10736,9,00:00.0,00:00.0,00:00.0,2,44.1
+HUNGO,Hungry Owl All-Night Grocers,Patricia McKenna,Sales Associate,10897,3,00:00.0,00:00.0,00:00.0,2,603.54
+HUNGO,Hungry Owl All-Night Grocers,Patricia McKenna,Sales Associate,10912,2,00:00.0,00:00.0,00:00.0,2,580.91
+HUNGO,Hungry Owl All-Night Grocers,Patricia McKenna,Sales Associate,10985,2,00:00.0,00:00.0,00:00.0,1,91.51
+HUNGO,Hungry Owl All-Night Grocers,Patricia McKenna,Sales Associate,11063,3,00:00.0,00:00.0,00:00.0,2,81.73
+ISLAT,Island Trading,Helen Bennett,Marketing Manager,10315,4,00:00.0,00:00.0,00:00.0,2,41.76
+ISLAT,Island Trading,Helen Bennett,Marketing Manager,10318,8,00:00.0,00:00.0,00:00.0,2,4.73
+ISLAT,Island Trading,Helen Bennett,Marketing Manager,10321,3,00:00.0,00:00.0,00:00.0,2,3.43
+ISLAT,Island Trading,Helen Bennett,Marketing Manager,10473,1,00:00.0,00:00.0,00:00.0,3,16.37
+ISLAT,Island Trading,Helen Bennett,Marketing Manager,10621,4,00:00.0,00:00.0,00:00.0,2,23.73
+ISLAT,Island Trading,Helen Bennett,Marketing Manager,10674,4,00:00.0,00:00.0,00:00.0,2,0.9
+ISLAT,Island Trading,Helen Bennett,Marketing Manager,10749,4,00:00.0,00:00.0,00:00.0,2,61.53
+ISLAT,Island Trading,Helen Bennett,Marketing Manager,10798,2,00:00.0,00:00.0,00:00.0,1,2.33
+ISLAT,Island Trading,Helen Bennett,Marketing Manager,10829,9,00:00.0,00:00.0,00:00.0,1,154.72
+ISLAT,Island Trading,Helen Bennett,Marketing Manager,10933,6,00:00.0,00:00.0,00:00.0,3,54.15
+KOENE,Königlich Essen,Philip Cramer,Sales Associate,10323,4,00:00.0,00:00.0,00:00.0,1,4.88
+KOENE,Königlich Essen,Philip Cramer,Sales Associate,10325,1,00:00.0,00:00.0,00:00.0,3,64.86
+KOENE,Königlich Essen,Philip Cramer,Sales Associate,10456,8,00:00.0,00:00.0,00:00.0,2,8.12
+KOENE,Königlich Essen,Philip Cramer,Sales Associate,10457,2,00:00.0,00:00.0,00:00.0,1,11.57
+KOENE,Königlich Essen,Philip Cramer,Sales Associate,10468,3,00:00.0,00:00.0,00:00.0,3,44.12
+KOENE,Königlich Essen,Philip Cramer,Sales Associate,10506,9,00:00.0,00:00.0,00:00.0,2,21.19
+KOENE,Königlich Essen,Philip Cramer,Sales Associate,10542,1,00:00.0,00:00.0,00:00.0,3,10.95
+KOENE,Königlich Essen,Philip Cramer,Sales Associate,10630,1,00:00.0,00:00.0,00:00.0,2,32.35
+KOENE,Königlich Essen,Philip Cramer,Sales Associate,10718,1,00:00.0,00:00.0,00:00.0,3,170.88
+KOENE,Königlich Essen,Philip Cramer,Sales Associate,10799,9,00:00.0,00:00.0,00:00.0,3,30.76
+KOENE,Königlich Essen,Philip Cramer,Sales Associate,10817,3,00:00.0,00:00.0,00:00.0,2,306.07
+KOENE,Königlich Essen,Philip Cramer,Sales Associate,10849,9,00:00.0,00:00.0,00:00.0,2,0.56
+KOENE,Königlich Essen,Philip Cramer,Sales Associate,10893,9,00:00.0,00:00.0,00:00.0,2,77.78
+KOENE,Königlich Essen,Philip Cramer,Sales Associate,11028,2,00:00.0,00:00.0,00:00.0,1,29.59
+LACOR,La corne d'abondance,Daniel Tonini,Sales Representative,10858,2,00:00.0,00:00.0,00:00.0,1,52.51
+LACOR,La corne d'abondance,Daniel Tonini,Sales Representative,10927,4,00:00.0,00:00.0,00:00.0,1,19.79
+LACOR,La corne d'abondance,Daniel Tonini,Sales Representative,10972,4,00:00.0,00:00.0,00:00.0,2,0.02
+LACOR,La corne d'abondance,Daniel Tonini,Sales Representative,10973,6,00:00.0,00:00.0,00:00.0,2,15.17
+LAMAI,La maison d'Asie,Annette Roulet,Sales Manager,10350,6,00:00.0,00:00.0,00:00.0,2,64.19
+LAMAI,La maison d'Asie,Annette Roulet,Sales Manager,10358,5,00:00.0,00:00.0,00:00.0,1,19.64
+LAMAI,La maison d'Asie,Annette Roulet,Sales Manager,10371,1,00:00.0,00:00.0,00:00.0,1,0.45
+LAMAI,La maison d'Asie,Annette Roulet,Sales Manager,10413,3,00:00.0,00:00.0,00:00.0,2,95.66
+LAMAI,La maison d'Asie,Annette Roulet,Sales Manager,10425,6,00:00.0,00:00.0,00:00.0,2,7.93
+LAMAI,La maison d'Asie,Annette Roulet,Sales Manager,10454,4,00:00.0,00:00.0,00:00.0,3,2.74
+LAMAI,La maison d'Asie,Annette Roulet,Sales Manager,10493,4,00:00.0,00:00.0,00:00.0,3,10.64
+LAMAI,La maison d'Asie,Annette Roulet,Sales Manager,10500,6,00:00.0,00:00.0,00:00.0,1,42.68
+LAMAI,La maison d'Asie,Annette Roulet,Sales Manager,10610,8,00:00.0,00:00.0,00:00.0,1,26.78
+LAMAI,La maison d'Asie,Annette Roulet,Sales Manager,10631,8,00:00.0,00:00.0,00:00.0,1,0.87
+LAMAI,La maison d'Asie,Annette Roulet,Sales Manager,10787,2,00:00.0,00:00.0,00:00.0,1,249.93
+LAMAI,La maison d'Asie,Annette Roulet,Sales Manager,10832,2,00:00.0,00:00.0,00:00.0,2,43.26
+LAMAI,La maison d'Asie,Annette Roulet,Sales Manager,10923,7,00:00.0,00:00.0,00:00.0,3,68.26
+LAMAI,La maison d'Asie,Annette Roulet,Sales Manager,11051,7,00:00.0,00:00.0,NULL,3,2.79
+LAUGB,Laughing Bacchus Wine Cellars,Yoshi Tannamuri,Marketing Assistant,10495,3,00:00.0,00:00.0,00:00.0,3,4.65
+LAUGB,Laughing Bacchus Wine Cellars,Yoshi Tannamuri,Marketing Assistant,10620,2,00:00.0,00:00.0,00:00.0,3,0.94
+LAUGB,Laughing Bacchus Wine Cellars,Yoshi Tannamuri,Marketing Assistant,10810,2,00:00.0,00:00.0,00:00.0,3,4.33
+LAZYK,Lazy K Kountry Store,John Steel,Marketing Manager,10482,1,00:00.0,00:00.0,00:00.0,3,7.48
+LAZYK,Lazy K Kountry Store,John Steel,Marketing Manager,10545,8,00:00.0,00:00.0,00:00.0,2,11.92
+LEHMS,Lehmanns Marktstand,Renate Messner,Sales Representative,10279,8,00:00.0,00:00.0,00:00.0,2,25.83
+LEHMS,Lehmanns Marktstand,Renate Messner,Sales Representative,10284,4,00:00.0,00:00.0,00:00.0,1,76.56
+LEHMS,Lehmanns Marktstand,Renate Messner,Sales Representative,10343,4,00:00.0,00:00.0,00:00.0,1,110.37
+LEHMS,Lehmanns Marktstand,Renate Messner,Sales Representative,10497,7,00:00.0,00:00.0,00:00.0,1,36.21
+LEHMS,Lehmanns Marktstand,Renate Messner,Sales Representative,10522,4,00:00.0,00:00.0,00:00.0,1,45.33
+LEHMS,Lehmanns Marktstand,Renate Messner,Sales Representative,10534,8,00:00.0,00:00.0,00:00.0,2,27.94
+LEHMS,Lehmanns Marktstand,Renate Messner,Sales Representative,10536,3,00:00.0,00:00.0,00:00.0,2,58.88
+LEHMS,Lehmanns Marktstand,Renate Messner,Sales Representative,10557,9,00:00.0,00:00.0,00:00.0,2,96.72
+LEHMS,Lehmanns Marktstand,Renate Messner,Sales Representative,10592,3,00:00.0,00:00.0,00:00.0,1,32.1
+LEHMS,Lehmanns Marktstand,Renate Messner,Sales Representative,10593,7,00:00.0,00:00.0,00:00.0,2,174.2
+LEHMS,Lehmanns Marktstand,Renate Messner,Sales Representative,10772,3,00:00.0,00:00.0,00:00.0,2,91.28
+LEHMS,Lehmanns Marktstand,Renate Messner,Sales Representative,10862,8,00:00.0,00:00.0,00:00.0,2,53.23
+LEHMS,Lehmanns Marktstand,Renate Messner,Sales Representative,10891,7,00:00.0,00:00.0,00:00.0,2,20.37
+LEHMS,Lehmanns Marktstand,Renate Messner,Sales Representative,10934,3,00:00.0,00:00.0,00:00.0,3,32.01
+LEHMS,Lehmanns Marktstand,Renate Messner,Sales Representative,11070,2,00:00.0,00:00.0,NULL,1,136
+LETSS,Let's Stop N Shop,Jaime Yorres,Owner,10579,1,00:00.0,00:00.0,00:00.0,2,13.73
+LETSS,Let's Stop N Shop,Jaime Yorres,Owner,10719,8,00:00.0,00:00.0,00:00.0,2,51.44
+LETSS,Let's Stop N Shop,Jaime Yorres,Owner,10735,6,00:00.0,00:00.0,00:00.0,2,45.97
+LETSS,Let's Stop N Shop,Jaime Yorres,Owner,10884,4,00:00.0,00:00.0,00:00.0,2,90.97
+LILAS,LILA-Supermercado,Carlos González,Accounting Manager,10283,3,00:00.0,00:00.0,00:00.0,3,84.81
+LILAS,LILA-Supermercado,Carlos González,Accounting Manager,10296,6,00:00.0,00:00.0,00:00.0,1,0.12
+LILAS,LILA-Supermercado,Carlos González,Accounting Manager,10330,3,00:00.0,00:00.0,00:00.0,1,12.75
+LILAS,LILA-Supermercado,Carlos González,Accounting Manager,10357,1,00:00.0,00:00.0,00:00.0,3,34.88
+LILAS,LILA-Supermercado,Carlos González,Accounting Manager,10381,3,00:00.0,00:00.0,00:00.0,3,7.99
+LILAS,LILA-Supermercado,Carlos González,Accounting Manager,10461,1,00:00.0,00:00.0,00:00.0,3,148.61
+LILAS,LILA-Supermercado,Carlos González,Accounting Manager,10499,4,00:00.0,00:00.0,00:00.0,2,102.02
+LILAS,LILA-Supermercado,Carlos González,Accounting Manager,10543,8,00:00.0,00:00.0,00:00.0,2,48.17
+LILAS,LILA-Supermercado,Carlos González,Accounting Manager,10780,2,00:00.0,00:00.0,00:00.0,1,42.13
+LILAS,LILA-Supermercado,Carlos González,Accounting Manager,10823,5,00:00.0,00:00.0,00:00.0,2,163.97
+LILAS,LILA-Supermercado,Carlos González,Accounting Manager,10899,5,00:00.0,00:00.0,00:00.0,3,1.21
+LILAS,LILA-Supermercado,Carlos González,Accounting Manager,10997,8,00:00.0,00:00.0,00:00.0,2,73.91
+LILAS,LILA-Supermercado,Carlos González,Accounting Manager,11065,8,00:00.0,00:00.0,NULL,1,12.91
+LILAS,LILA-Supermercado,Carlos González,Accounting Manager,11071,1,00:00.0,00:00.0,NULL,1,0.93
+LINOD,LINO-Delicateses,Felipe Izquierdo,Owner,10405,1,00:00.0,00:00.0,00:00.0,1,34.82
+LINOD,LINO-Delicateses,Felipe Izquierdo,Owner,10485,4,00:00.0,00:00.0,00:00.0,2,64.45
+LINOD,LINO-Delicateses,Felipe Izquierdo,Owner,10638,3,00:00.0,00:00.0,00:00.0,1,158.44
+LINOD,LINO-Delicateses,Felipe Izquierdo,Owner,10697,3,00:00.0,00:00.0,00:00.0,1,45.52
+LINOD,LINO-Delicateses,Felipe Izquierdo,Owner,10729,8,00:00.0,00:00.0,00:00.0,3,141.06
+LINOD,LINO-Delicateses,Felipe Izquierdo,Owner,10811,8,00:00.0,00:00.0,00:00.0,1,31.22
+LINOD,LINO-Delicateses,Felipe Izquierdo,Owner,10838,3,00:00.0,00:00.0,00:00.0,3,59.28
+LINOD,LINO-Delicateses,Felipe Izquierdo,Owner,10840,4,00:00.0,00:00.0,00:00.0,2,2.71
+LINOD,LINO-Delicateses,Felipe Izquierdo,Owner,10919,2,00:00.0,00:00.0,00:00.0,2,19.8
+LINOD,LINO-Delicateses,Felipe Izquierdo,Owner,10954,5,00:00.0,00:00.0,00:00.0,1,27.91
+LINOD,LINO-Delicateses,Felipe Izquierdo,Owner,11014,2,00:00.0,00:00.0,00:00.0,3,23.6
+LINOD,LINO-Delicateses,Felipe Izquierdo,Owner,11039,1,00:00.0,00:00.0,NULL,2,65
+LONEP,Lonesome Pine Restaurant,Fran Wilson,Sales Manager,10307,2,00:00.0,00:00.0,00:00.0,2,0.56
+LONEP,Lonesome Pine Restaurant,Fran Wilson,Sales Manager,10317,6,00:00.0,00:00.0,00:00.0,1,12.69
+LONEP,Lonesome Pine Restaurant,Fran Wilson,Sales Manager,10544,4,00:00.0,00:00.0,00:00.0,1,24.91
+LONEP,Lonesome Pine Restaurant,Fran Wilson,Sales Manager,10662,3,00:00.0,00:00.0,00:00.0,2,1.28
+LONEP,Lonesome Pine Restaurant,Fran Wilson,Sales Manager,10665,1,00:00.0,00:00.0,00:00.0,2,26.31
+LONEP,Lonesome Pine Restaurant,Fran Wilson,Sales Manager,10867,6,00:00.0,00:00.0,00:00.0,1,1.93
+LONEP,Lonesome Pine Restaurant,Fran Wilson,Sales Manager,10883,8,00:00.0,00:00.0,00:00.0,3,0.53
+LONEP,Lonesome Pine Restaurant,Fran Wilson,Sales Manager,11018,4,00:00.0,00:00.0,00:00.0,2,11.65
+MAGAA,Magazzini Alimentari Riuniti,Giovanni Rovelli,Marketing Manager,10275,1,00:00.0,00:00.0,00:00.0,1,26.93
+MAGAA,Magazzini Alimentari Riuniti,Giovanni Rovelli,Marketing Manager,10300,2,00:00.0,00:00.0,00:00.0,2,17.68
+MAGAA,Magazzini Alimentari Riuniti,Giovanni Rovelli,Marketing Manager,10404,2,00:00.0,00:00.0,00:00.0,1,155.97
+MAGAA,Magazzini Alimentari Riuniti,Giovanni Rovelli,Marketing Manager,10467,8,00:00.0,00:00.0,00:00.0,2,4.93
+MAGAA,Magazzini Alimentari Riuniti,Giovanni Rovelli,Marketing Manager,10635,8,00:00.0,00:00.0,00:00.0,3,47.46
+MAGAA,Magazzini Alimentari Riuniti,Giovanni Rovelli,Marketing Manager,10754,6,00:00.0,00:00.0,00:00.0,3,2.38
+MAGAA,Magazzini Alimentari Riuniti,Giovanni Rovelli,Marketing Manager,10784,4,00:00.0,00:00.0,00:00.0,3,70.09
+MAGAA,Magazzini Alimentari Riuniti,Giovanni Rovelli,Marketing Manager,10818,7,00:00.0,00:00.0,00:00.0,3,65.48
+MAGAA,Magazzini Alimentari Riuniti,Giovanni Rovelli,Marketing Manager,10939,2,00:00.0,00:00.0,00:00.0,2,76.33
+MAGAA,Magazzini Alimentari Riuniti,Giovanni Rovelli,Marketing Manager,10950,1,00:00.0,00:00.0,00:00.0,2,2.5
+MAISD,Maison Dewey,Catherine Dewey,Sales Agent,10529,5,00:00.0,00:00.0,00:00.0,2,66.69
+MAISD,Maison Dewey,Catherine Dewey,Sales Agent,10649,5,00:00.0,00:00.0,00:00.0,3,6.2
+MAISD,Maison Dewey,Catherine Dewey,Sales Agent,10760,4,00:00.0,00:00.0,00:00.0,1,155.64
+MAISD,Maison Dewey,Catherine Dewey,Sales Agent,10892,4,00:00.0,00:00.0,00:00.0,2,120.27
+MAISD,Maison Dewey,Catherine Dewey,Sales Agent,10896,7,00:00.0,00:00.0,00:00.0,3,32.45
+MAISD,Maison Dewey,Catherine Dewey,Sales Agent,10978,9,00:00.0,00:00.0,00:00.0,2,32.82
+MAISD,Maison Dewey,Catherine Dewey,Sales Agent,11004,3,00:00.0,00:00.0,00:00.0,1,44.84
+MEREP,Mère Paillarde,Jean Fresnière,Marketing Assistant,10332,3,00:00.0,00:00.0,00:00.0,2,52.84
+MEREP,Mère Paillarde,Jean Fresnière,Marketing Assistant,10339,2,00:00.0,00:00.0,00:00.0,2,15.66
+MEREP,Mère Paillarde,Jean Fresnière,Marketing Assistant,10376,1,00:00.0,00:00.0,00:00.0,2,20.39
+MEREP,Mère Paillarde,Jean Fresnière,Marketing Assistant,10424,7,00:00.0,00:00.0,00:00.0,2,370.61
+MEREP,Mère Paillarde,Jean Fresnière,Marketing Assistant,10439,6,00:00.0,00:00.0,00:00.0,3,4.07
+MEREP,Mère Paillarde,Jean Fresnière,Marketing Assistant,10505,3,00:00.0,00:00.0,00:00.0,3,7.13
+MEREP,Mère Paillarde,Jean Fresnière,Marketing Assistant,10565,8,00:00.0,00:00.0,00:00.0,2,7.15
+MEREP,Mère Paillarde,Jean Fresnière,Marketing Assistant,10570,3,00:00.0,00:00.0,00:00.0,3,188.99
+MEREP,Mère Paillarde,Jean Fresnière,Marketing Assistant,10590,4,00:00.0,00:00.0,00:00.0,3,44.77
+MEREP,Mère Paillarde,Jean Fresnière,Marketing Assistant,10605,1,00:00.0,00:00.0,00:00.0,2,379.13
+MEREP,Mère Paillarde,Jean Fresnière,Marketing Assistant,10618,1,00:00.0,00:00.0,00:00.0,1,154.68
+MEREP,Mère Paillarde,Jean Fresnière,Marketing Assistant,10619,3,00:00.0,00:00.0,00:00.0,3,91.05
+MEREP,Mère Paillarde,Jean Fresnière,Marketing Assistant,10724,8,00:00.0,00:00.0,00:00.0,2,57.75
+MORGK,Morgenstern Gesundkost,Alexander Feuer,Marketing Assistant,10277,2,00:00.0,00:00.0,00:00.0,3,125.77
+MORGK,Morgenstern Gesundkost,Alexander Feuer,Marketing Assistant,10575,5,00:00.0,00:00.0,00:00.0,1,127.34
+MORGK,Morgenstern Gesundkost,Alexander Feuer,Marketing Assistant,10699,3,00:00.0,00:00.0,00:00.0,3,0.58
+MORGK,Morgenstern Gesundkost,Alexander Feuer,Marketing Assistant,10779,3,00:00.0,00:00.0,00:00.0,2,58.13
+MORGK,Morgenstern Gesundkost,Alexander Feuer,Marketing Assistant,10945,4,00:00.0,00:00.0,00:00.0,1,10.22
+NORTS,North/South,Simon Crowther,Sales Associate,10517,3,00:00.0,00:00.0,00:00.0,3,32.07
+NORTS,North/South,Simon Crowther,Sales Associate,10752,2,00:00.0,00:00.0,00:00.0,3,1.39
+NORTS,North/South,Simon Crowther,Sales Associate,11057,3,00:00.0,00:00.0,00:00.0,3,4.13
+OCEAN,Océano Atlántico Ltda.,Yvonne Moncada,Sales Agent,10409,3,00:00.0,00:00.0,00:00.0,1,29.83
+OCEAN,Océano Atlántico Ltda.,Yvonne Moncada,Sales Agent,10531,7,00:00.0,00:00.0,00:00.0,1,8.12
+OCEAN,Océano Atlántico Ltda.,Yvonne Moncada,Sales Agent,10898,4,00:00.0,00:00.0,00:00.0,2,1.27
+OCEAN,Océano Atlántico Ltda.,Yvonne Moncada,Sales Agent,10958,7,00:00.0,00:00.0,00:00.0,2,49.56
+OCEAN,Océano Atlántico Ltda.,Yvonne Moncada,Sales Agent,10986,8,00:00.0,00:00.0,00:00.0,2,217.86
+OLDWO,Old World Delicatessen,Rene Phillips,Sales Representative,10305,8,00:00.0,00:00.0,00:00.0,3,257.62
+OLDWO,Old World Delicatessen,Rene Phillips,Sales Representative,10338,4,00:00.0,00:00.0,00:00.0,3,84.21
+OLDWO,Old World Delicatessen,Rene Phillips,Sales Representative,10441,3,00:00.0,00:00.0,00:00.0,2,73.02
+OLDWO,Old World Delicatessen,Rene Phillips,Sales Representative,10594,3,00:00.0,00:00.0,00:00.0,2,5.24
+OLDWO,Old World Delicatessen,Rene Phillips,Sales Representative,10680,1,00:00.0,00:00.0,00:00.0,1,26.61
+OLDWO,Old World Delicatessen,Rene Phillips,Sales Representative,10706,8,00:00.0,00:00.0,00:00.0,3,135.63
+OLDWO,Old World Delicatessen,Rene Phillips,Sales Representative,10808,2,00:00.0,00:00.0,00:00.0,3,45.53
+OLDWO,Old World Delicatessen,Rene Phillips,Sales Representative,10855,3,00:00.0,00:00.0,00:00.0,1,170.97
+OLDWO,Old World Delicatessen,Rene Phillips,Sales Representative,10965,6,00:00.0,00:00.0,00:00.0,3,144.38
+OLDWO,Old World Delicatessen,Rene Phillips,Sales Representative,11034,8,00:00.0,00:00.0,00:00.0,1,40.32
+OTTIK,Ottilies Käseladen,Henriette Pfalzheim,Owner,10260,4,00:00.0,00:00.0,00:00.0,1,55.09
+OTTIK,Ottilies Käseladen,Henriette Pfalzheim,Owner,10407,2,00:00.0,00:00.0,00:00.0,2,91.48
+OTTIK,Ottilies Käseladen,Henriette Pfalzheim,Owner,10508,1,00:00.0,00:00.0,00:00.0,2,4.99
+OTTIK,Ottilies Käseladen,Henriette Pfalzheim,Owner,10554,4,00:00.0,00:00.0,00:00.0,3,120.97
+OTTIK,Ottilies Käseladen,Henriette Pfalzheim,Owner,10580,4,00:00.0,00:00.0,00:00.0,3,75.89
+OTTIK,Ottilies Käseladen,Henriette Pfalzheim,Owner,10684,3,00:00.0,00:00.0,00:00.0,1,145.63
+OTTIK,Ottilies Käseladen,Henriette Pfalzheim,Owner,10766,4,00:00.0,00:00.0,00:00.0,1,157.55
+OTTIK,Ottilies Käseladen,Henriette Pfalzheim,Owner,10833,6,00:00.0,00:00.0,00:00.0,2,71.49
+OTTIK,Ottilies Käseladen,Henriette Pfalzheim,Owner,10999,6,00:00.0,00:00.0,00:00.0,2,96.35
+OTTIK,Ottilies Käseladen,Henriette Pfalzheim,Owner,11020,2,00:00.0,00:00.0,00:00.0,2,43.3
+PERIC,Pericles Comidas clásicas,Guillermo Fernández,Sales Representative,10322,7,00:00.0,00:00.0,00:00.0,3,0.4
+PERIC,Pericles Comidas clásicas,Guillermo Fernández,Sales Representative,10354,8,00:00.0,00:00.0,00:00.0,3,53.8
+PERIC,Pericles Comidas clásicas,Guillermo Fernández,Sales Representative,10474,5,00:00.0,00:00.0,00:00.0,2,83.49
+PERIC,Pericles Comidas clásicas,Guillermo Fernández,Sales Representative,10502,2,00:00.0,00:00.0,00:00.0,1,69.32
+PERIC,Pericles Comidas clásicas,Guillermo Fernández,Sales Representative,10995,1,00:00.0,00:00.0,00:00.0,3,46
+PERIC,Pericles Comidas clásicas,Guillermo Fernández,Sales Representative,11073,2,00:00.0,00:00.0,NULL,2,24.95
+PICCO,Piccolo und mehr,Georg Pipps,Sales Manager,10353,7,00:00.0,00:00.0,00:00.0,3,360.63
+PICCO,Piccolo und mehr,Georg Pipps,Sales Manager,10392,2,00:00.0,00:00.0,00:00.0,3,122.46
+PICCO,Piccolo und mehr,Georg Pipps,Sales Manager,10427,4,00:00.0,00:00.0,00:00.0,2,31.29
+PICCO,Piccolo und mehr,Georg Pipps,Sales Manager,10489,6,00:00.0,00:00.0,00:00.0,2,5.29
+PICCO,Piccolo und mehr,Georg Pipps,Sales Manager,10530,3,00:00.0,00:00.0,00:00.0,2,339.22
+PICCO,Piccolo und mehr,Georg Pipps,Sales Manager,10597,7,00:00.0,00:00.0,00:00.0,3,35.12
+PICCO,Piccolo und mehr,Georg Pipps,Sales Manager,10686,2,00:00.0,00:00.0,00:00.0,1,96.5
+PICCO,Piccolo und mehr,Georg Pipps,Sales Manager,10747,6,00:00.0,00:00.0,00:00.0,1,117.33
+PICCO,Piccolo und mehr,Georg Pipps,Sales Manager,10844,8,00:00.0,00:00.0,00:00.0,2,25.22
+PICCO,Piccolo und mehr,Georg Pipps,Sales Manager,11053,2,00:00.0,00:00.0,00:00.0,2,53.05
+PRINI,Princesa Isabel Vinhos,Isabel de Castro,Sales Representative,10336,7,00:00.0,00:00.0,00:00.0,2,15.51
+PRINI,Princesa Isabel Vinhos,Isabel de Castro,Sales Representative,10397,5,00:00.0,00:00.0,00:00.0,1,60.26
+PRINI,Princesa Isabel Vinhos,Isabel de Castro,Sales Representative,10433,3,00:00.0,00:00.0,00:00.0,3,73.83
+PRINI,Princesa Isabel Vinhos,Isabel de Castro,Sales Representative,10477,5,00:00.0,00:00.0,00:00.0,2,13.02
+PRINI,Princesa Isabel Vinhos,Isabel de Castro,Sales Representative,11007,8,00:00.0,00:00.0,00:00.0,2,202.24
+QUEDE,Que Delícia,Bernardo Batista,Accounting Manager,10261,4,00:00.0,00:00.0,00:00.0,2,3.05
+QUEDE,Que Delícia,Bernardo Batista,Accounting Manager,10291,6,00:00.0,00:00.0,00:00.0,2,6.4
+QUEDE,Que Delícia,Bernardo Batista,Accounting Manager,10379,2,00:00.0,00:00.0,00:00.0,1,45.03
+QUEDE,Que Delícia,Bernardo Batista,Accounting Manager,10421,8,00:00.0,00:00.0,00:00.0,1,99.23
+QUEDE,Que Delícia,Bernardo Batista,Accounting Manager,10587,1,00:00.0,00:00.0,00:00.0,1,62.52
+QUEDE,Que Delícia,Bernardo Batista,Accounting Manager,10647,4,00:00.0,00:00.0,00:00.0,2,45.54
+QUEDE,Que Delícia,Bernardo Batista,Accounting Manager,10720,8,00:00.0,00:00.0,00:00.0,2,9.53
+QUEDE,Que Delícia,Bernardo Batista,Accounting Manager,10794,6,00:00.0,00:00.0,00:00.0,1,21.49
+QUEDE,Que Delícia,Bernardo Batista,Accounting Manager,10989,2,00:00.0,00:00.0,00:00.0,1,34.76
+QUEEN,Queen Cozinha,Lúcia Carvalho,Marketing Assistant,10372,5,00:00.0,00:00.0,00:00.0,2,890.78
+QUEEN,Queen Cozinha,Lúcia Carvalho,Marketing Assistant,10406,7,00:00.0,00:00.0,00:00.0,1,108.04
+QUEEN,Queen Cozinha,Lúcia Carvalho,Marketing Assistant,10487,2,00:00.0,00:00.0,00:00.0,2,71.07
+QUEEN,Queen Cozinha,Lúcia Carvalho,Marketing Assistant,10637,6,00:00.0,00:00.0,00:00.0,1,201.29
+QUEEN,Queen Cozinha,Lúcia Carvalho,Marketing Assistant,10659,7,00:00.0,00:00.0,00:00.0,2,105.81
+QUEEN,Queen Cozinha,Lúcia Carvalho,Marketing Assistant,10704,6,00:00.0,00:00.0,00:00.0,1,4.78
+QUEEN,Queen Cozinha,Lúcia Carvalho,Marketing Assistant,10728,4,00:00.0,00:00.0,00:00.0,2,58.33
+QUEEN,Queen Cozinha,Lúcia Carvalho,Marketing Assistant,10786,8,00:00.0,00:00.0,00:00.0,1,110.87
+QUEEN,Queen Cozinha,Lúcia Carvalho,Marketing Assistant,10868,7,00:00.0,00:00.0,00:00.0,2,191.27
+QUEEN,Queen Cozinha,Lúcia Carvalho,Marketing Assistant,10913,4,00:00.0,00:00.0,00:00.0,1,33.05
+QUEEN,Queen Cozinha,Lúcia Carvalho,Marketing Assistant,10914,6,00:00.0,00:00.0,00:00.0,1,21.19
+QUEEN,Queen Cozinha,Lúcia Carvalho,Marketing Assistant,10961,8,00:00.0,00:00.0,00:00.0,1,104.47
+QUEEN,Queen Cozinha,Lúcia Carvalho,Marketing Assistant,11068,8,00:00.0,00:00.0,NULL,2,81.75
+QUICK,QUICK-Stop,Horst Kloss,Accounting Manager,10273,3,00:00.0,00:00.0,00:00.0,3,76.07
+QUICK,QUICK-Stop,Horst Kloss,Accounting Manager,10285,1,00:00.0,00:00.0,00:00.0,2,76.83
+QUICK,QUICK-Stop,Horst Kloss,Accounting Manager,10286,8,00:00.0,00:00.0,00:00.0,3,229.24
+QUICK,QUICK-Stop,Horst Kloss,Accounting Manager,10313,2,00:00.0,00:00.0,00:00.0,2,1.96
+QUICK,QUICK-Stop,Horst Kloss,Accounting Manager,10345,2,00:00.0,00:00.0,00:00.0,2,249.06
+QUICK,QUICK-Stop,Horst Kloss,Accounting Manager,10361,1,00:00.0,00:00.0,00:00.0,2,183.17
+QUICK,QUICK-Stop,Horst Kloss,Accounting Manager,10418,4,00:00.0,00:00.0,00:00.0,1,17.55
+QUICK,QUICK-Stop,Horst Kloss,Accounting Manager,10451,4,00:00.0,00:00.0,00:00.0,3,189.09
+QUICK,QUICK-Stop,Horst Kloss,Accounting Manager,10515,2,00:00.0,00:00.0,00:00.0,1,204.47
+QUICK,QUICK-Stop,Horst Kloss,Accounting Manager,10527,7,00:00.0,00:00.0,00:00.0,1,41.9
+QUICK,QUICK-Stop,Horst Kloss,Accounting Manager,10540,3,00:00.0,00:00.0,00:00.0,3,1007.64
+QUICK,QUICK-Stop,Horst Kloss,Accounting Manager,10549,5,00:00.0,00:00.0,00:00.0,1,171.24
+QUICK,QUICK-Stop,Horst Kloss,Accounting Manager,10588,2,00:00.0,00:00.0,00:00.0,3,194.67
+QUICK,QUICK-Stop,Horst Kloss,Accounting Manager,10658,4,00:00.0,00:00.0,00:00.0,1,364.15
+QUICK,QUICK-Stop,Horst Kloss,Accounting Manager,10691,2,00:00.0,00:00.0,00:00.0,2,810.05
+QUICK,QUICK-Stop,Horst Kloss,Accounting Manager,10694,8,00:00.0,00:00.0,00:00.0,3,398.36
+QUICK,QUICK-Stop,Horst Kloss,Accounting Manager,10721,5,00:00.0,00:00.0,00:00.0,3,48.92
+QUICK,QUICK-Stop,Horst Kloss,Accounting Manager,10745,9,00:00.0,00:00.0,00:00.0,1,3.52
+QUICK,QUICK-Stop,Horst Kloss,Accounting Manager,10765,3,00:00.0,00:00.0,00:00.0,3,42.74
+QUICK,QUICK-Stop,Horst Kloss,Accounting Manager,10788,1,00:00.0,00:00.0,00:00.0,2,42.7
+QUICK,QUICK-Stop,Horst Kloss,Accounting Manager,10845,8,00:00.0,00:00.0,00:00.0,1,212.98
+QUICK,QUICK-Stop,Horst Kloss,Accounting Manager,10865,2,00:00.0,00:00.0,00:00.0,1,348.14
+QUICK,QUICK-Stop,Horst Kloss,Accounting Manager,10878,4,00:00.0,00:00.0,00:00.0,1,46.69
+QUICK,QUICK-Stop,Horst Kloss,Accounting Manager,10938,3,00:00.0,00:00.0,00:00.0,2,31.89
+QUICK,QUICK-Stop,Horst Kloss,Accounting Manager,10962,8,00:00.0,00:00.0,00:00.0,2,275.79
+QUICK,QUICK-Stop,Horst Kloss,Accounting Manager,10991,1,00:00.0,00:00.0,00:00.0,1,38.51
+QUICK,QUICK-Stop,Horst Kloss,Accounting Manager,10996,4,00:00.0,00:00.0,00:00.0,2,1.12
+QUICK,QUICK-Stop,Horst Kloss,Accounting Manager,11021,3,00:00.0,00:00.0,00:00.0,1,297.18
+RANCH,Rancho grande,Sergio Gutiérrez,Sales Representative,10448,4,00:00.0,00:00.0,00:00.0,2,38.82
+RANCH,Rancho grande,Sergio Gutiérrez,Sales Representative,10716,4,00:00.0,00:00.0,00:00.0,2,22.57
+RANCH,Rancho grande,Sergio Gutiérrez,Sales Representative,10828,9,00:00.0,00:00.0,00:00.0,1,90.85
+RANCH,Rancho grande,Sergio Gutiérrez,Sales Representative,10916,1,00:00.0,00:00.0,00:00.0,2,63.77
+RANCH,Rancho grande,Sergio Gutiérrez,Sales Representative,11019,6,00:00.0,00:00.0,NULL,3,3.17
+RATTC,Rattlesnake Canyon Grocery,Paula Wilson,Assistant Sales Representative,10262,8,00:00.0,00:00.0,00:00.0,3,48.29
+RATTC,Rattlesnake Canyon Grocery,Paula Wilson,Assistant Sales Representative,10272,6,00:00.0,00:00.0,00:00.0,2,98.03
+RATTC,Rattlesnake Canyon Grocery,Paula Wilson,Assistant Sales Representative,10294,4,00:00.0,00:00.0,00:00.0,2,147.26
+RATTC,Rattlesnake Canyon Grocery,Paula Wilson,Assistant Sales Representative,10314,1,00:00.0,00:00.0,00:00.0,2,74.16
+RATTC,Rattlesnake Canyon Grocery,Paula Wilson,Assistant Sales Representative,10316,1,00:00.0,00:00.0,00:00.0,3,150.15
+RATTC,Rattlesnake Canyon Grocery,Paula Wilson,Assistant Sales Representative,10346,3,00:00.0,00:00.0,00:00.0,3,142.08
+RATTC,Rattlesnake Canyon Grocery,Paula Wilson,Assistant Sales Representative,10401,1,00:00.0,00:00.0,00:00.0,1,12.51
+RATTC,Rattlesnake Canyon Grocery,Paula Wilson,Assistant Sales Representative,10479,3,00:00.0,00:00.0,00:00.0,3,708.95
+RATTC,Rattlesnake Canyon Grocery,Paula Wilson,Assistant Sales Representative,10564,4,00:00.0,00:00.0,00:00.0,3,13.75
+RATTC,Rattlesnake Canyon Grocery,Paula Wilson,Assistant Sales Representative,10569,5,00:00.0,00:00.0,00:00.0,1,58.98
+RATTC,Rattlesnake Canyon Grocery,Paula Wilson,Assistant Sales Representative,10598,1,00:00.0,00:00.0,00:00.0,3,44.42
+RATTC,Rattlesnake Canyon Grocery,Paula Wilson,Assistant Sales Representative,10761,5,00:00.0,00:00.0,00:00.0,2,18.66
+RATTC,Rattlesnake Canyon Grocery,Paula Wilson,Assistant Sales Representative,10820,3,00:00.0,00:00.0,00:00.0,2,37.52
+RATTC,Rattlesnake Canyon Grocery,Paula Wilson,Assistant Sales Representative,10852,8,00:00.0,00:00.0,00:00.0,1,174.05
+RATTC,Rattlesnake Canyon Grocery,Paula Wilson,Assistant Sales Representative,10889,9,00:00.0,00:00.0,00:00.0,3,280.61
+RATTC,Rattlesnake Canyon Grocery,Paula Wilson,Assistant Sales Representative,10988,3,00:00.0,00:00.0,00:00.0,2,61.14
+RATTC,Rattlesnake Canyon Grocery,Paula Wilson,Assistant Sales Representative,11000,2,00:00.0,00:00.0,00:00.0,3,55.12
+RATTC,Rattlesnake Canyon Grocery,Paula Wilson,Assistant Sales Representative,11077,1,00:00.0,00:00.0,NULL,2,8.53
+REGGC,Reggiani Caseifici,Maurizio Moroni,Sales Associate,10288,4,00:00.0,00:00.0,00:00.0,1,7.45
+REGGC,Reggiani Caseifici,Maurizio Moroni,Sales Associate,10428,7,00:00.0,00:00.0,00:00.0,1,11.09
+REGGC,Reggiani Caseifici,Maurizio Moroni,Sales Associate,10443,8,00:00.0,00:00.0,00:00.0,1,13.95
+REGGC,Reggiani Caseifici,Maurizio Moroni,Sales Associate,10562,1,00:00.0,00:00.0,00:00.0,1,22.95
+REGGC,Reggiani Caseifici,Maurizio Moroni,Sales Associate,10586,9,00:00.0,00:00.0,00:00.0,1,0.48
+REGGC,Reggiani Caseifici,Maurizio Moroni,Sales Associate,10655,1,00:00.0,00:00.0,00:00.0,2,4.41
+REGGC,Reggiani Caseifici,Maurizio Moroni,Sales Associate,10727,2,00:00.0,00:00.0,00:00.0,1,89.9
+REGGC,Reggiani Caseifici,Maurizio Moroni,Sales Associate,10812,5,00:00.0,00:00.0,00:00.0,1,59.78
+REGGC,Reggiani Caseifici,Maurizio Moroni,Sales Associate,10908,4,00:00.0,00:00.0,00:00.0,2,32.96
+REGGC,Reggiani Caseifici,Maurizio Moroni,Sales Associate,10942,9,00:00.0,00:00.0,00:00.0,3,17.95
+REGGC,Reggiani Caseifici,Maurizio Moroni,Sales Associate,11010,2,00:00.0,00:00.0,00:00.0,2,28.71
+REGGC,Reggiani Caseifici,Maurizio Moroni,Sales Associate,11062,4,00:00.0,00:00.0,NULL,2,29.93
+RICAR,Ricardo Adocicados,Janete Limeira,Assistant Sales Agent,10287,8,00:00.0,00:00.0,00:00.0,3,12.76
+RICAR,Ricardo Adocicados,Janete Limeira,Assistant Sales Agent,10299,4,00:00.0,00:00.0,00:00.0,2,29.76
+RICAR,Ricardo Adocicados,Janete Limeira,Assistant Sales Agent,10447,4,00:00.0,00:00.0,00:00.0,2,68.66
+RICAR,Ricardo Adocicados,Janete Limeira,Assistant Sales Agent,10481,8,00:00.0,00:00.0,00:00.0,2,64.33
+RICAR,Ricardo Adocicados,Janete Limeira,Assistant Sales Agent,10563,2,00:00.0,00:00.0,00:00.0,2,60.43
+RICAR,Ricardo Adocicados,Janete Limeira,Assistant Sales Agent,10622,4,00:00.0,00:00.0,00:00.0,3,50.97
+RICAR,Ricardo Adocicados,Janete Limeira,Assistant Sales Agent,10648,5,00:00.0,00:00.0,00:00.0,2,14.25
+RICAR,Ricardo Adocicados,Janete Limeira,Assistant Sales Agent,10813,1,00:00.0,00:00.0,00:00.0,1,47.38
+RICAR,Ricardo Adocicados,Janete Limeira,Assistant Sales Agent,10851,5,00:00.0,00:00.0,00:00.0,1,160.55
+RICAR,Ricardo Adocicados,Janete Limeira,Assistant Sales Agent,10877,1,00:00.0,00:00.0,00:00.0,1,38.06
+RICAR,Ricardo Adocicados,Janete Limeira,Assistant Sales Agent,11059,2,00:00.0,00:00.0,NULL,2,85.8
+RICSU,Richter Supermarkt,Michael Holz,Sales Manager,10255,9,00:00.0,00:00.0,00:00.0,3,148.33
+RICSU,Richter Supermarkt,Michael Holz,Sales Manager,10419,4,00:00.0,00:00.0,00:00.0,2,137.35
+RICSU,Richter Supermarkt,Michael Holz,Sales Manager,10537,1,00:00.0,00:00.0,00:00.0,1,78.85
+RICSU,Richter Supermarkt,Michael Holz,Sales Manager,10666,7,00:00.0,00:00.0,00:00.0,2,232.42
+RICSU,Richter Supermarkt,Michael Holz,Sales Manager,10751,3,00:00.0,00:00.0,00:00.0,3,130.79
+RICSU,Richter Supermarkt,Michael Holz,Sales Manager,10758,3,00:00.0,00:00.0,00:00.0,3,138.17
+RICSU,Richter Supermarkt,Michael Holz,Sales Manager,10931,4,00:00.0,00:00.0,00:00.0,2,13.6
+RICSU,Richter Supermarkt,Michael Holz,Sales Manager,10951,9,00:00.0,00:00.0,00:00.0,2,30.85
+RICSU,Richter Supermarkt,Michael Holz,Sales Manager,11033,7,00:00.0,00:00.0,00:00.0,3,84.74
+RICSU,Richter Supermarkt,Michael Holz,Sales Manager,11075,8,00:00.0,00:00.0,NULL,2,6.19
+ROMEY,Romero y tomillo,Alejandra Camino,Accounting Manager,10281,4,00:00.0,00:00.0,00:00.0,1,2.94
+ROMEY,Romero y tomillo,Alejandra Camino,Accounting Manager,10282,4,00:00.0,00:00.0,00:00.0,1,12.69
+ROMEY,Romero y tomillo,Alejandra Camino,Accounting Manager,10306,1,00:00.0,00:00.0,00:00.0,3,7.56
+ROMEY,Romero y tomillo,Alejandra Camino,Accounting Manager,10917,4,00:00.0,00:00.0,00:00.0,2,8.29
+ROMEY,Romero y tomillo,Alejandra Camino,Accounting Manager,11013,2,00:00.0,00:00.0,00:00.0,1,32.99
+SANTG,Santé Gourmet,Jonas Bergulfsen,Owner,10387,1,00:00.0,00:00.0,00:00.0,2,93.63
+SANTG,Santé Gourmet,Jonas Bergulfsen,Owner,10520,7,00:00.0,00:00.0,00:00.0,1,13.37
+SANTG,Santé Gourmet,Jonas Bergulfsen,Owner,10639,7,00:00.0,00:00.0,00:00.0,3,38.64
+SANTG,Santé Gourmet,Jonas Bergulfsen,Owner,10831,3,00:00.0,00:00.0,00:00.0,2,72.19
+SANTG,Santé Gourmet,Jonas Bergulfsen,Owner,10909,1,00:00.0,00:00.0,00:00.0,2,53.05
+SANTG,Santé Gourmet,Jonas Bergulfsen,Owner,11015,2,00:00.0,00:00.0,00:00.0,2,4.62
+SAVEA,Save-a-lot Markets,Jose Pavarotti,Sales Representative,10324,9,00:00.0,00:00.0,00:00.0,1,214.27
+SAVEA,Save-a-lot Markets,Jose Pavarotti,Sales Representative,10393,1,00:00.0,00:00.0,00:00.0,3,126.56
+SAVEA,Save-a-lot Markets,Jose Pavarotti,Sales Representative,10398,2,00:00.0,00:00.0,00:00.0,3,89.16
+SAVEA,Save-a-lot Markets,Jose Pavarotti,Sales Representative,10440,4,00:00.0,00:00.0,00:00.0,2,86.53
+SAVEA,Save-a-lot Markets,Jose Pavarotti,Sales Representative,10452,8,00:00.0,00:00.0,00:00.0,1,140.26
+SAVEA,Save-a-lot Markets,Jose Pavarotti,Sales Representative,10510,6,00:00.0,00:00.0,00:00.0,3,367.63
+SAVEA,Save-a-lot Markets,Jose Pavarotti,Sales Representative,10555,6,00:00.0,00:00.0,00:00.0,3,252.49
+SAVEA,Save-a-lot Markets,Jose Pavarotti,Sales Representative,10603,8,00:00.0,00:00.0,00:00.0,2,48.77
+SAVEA,Save-a-lot Markets,Jose Pavarotti,Sales Representative,10607,5,00:00.0,00:00.0,00:00.0,1,200.24
+SAVEA,Save-a-lot Markets,Jose Pavarotti,Sales Representative,10612,1,00:00.0,00:00.0,00:00.0,2,544.08
+SAVEA,Save-a-lot Markets,Jose Pavarotti,Sales Representative,10627,8,00:00.0,00:00.0,00:00.0,3,107.46
+SAVEA,Save-a-lot Markets,Jose Pavarotti,Sales Representative,10657,2,00:00.0,00:00.0,00:00.0,2,352.69
+SAVEA,Save-a-lot Markets,Jose Pavarotti,Sales Representative,10678,7,00:00.0,00:00.0,00:00.0,3,388.98
+SAVEA,Save-a-lot Markets,Jose Pavarotti,Sales Representative,10700,3,00:00.0,00:00.0,00:00.0,1,65.1
+SAVEA,Save-a-lot Markets,Jose Pavarotti,Sales Representative,10711,5,00:00.0,00:00.0,00:00.0,2,52.41
+SAVEA,Save-a-lot Markets,Jose Pavarotti,Sales Representative,10713,1,00:00.0,00:00.0,00:00.0,1,167.05
+SAVEA,Save-a-lot Markets,Jose Pavarotti,Sales Representative,10714,5,00:00.0,00:00.0,00:00.0,3,24.49
+SAVEA,Save-a-lot Markets,Jose Pavarotti,Sales Representative,10722,8,00:00.0,00:00.0,00:00.0,1,74.58
+SAVEA,Save-a-lot Markets,Jose Pavarotti,Sales Representative,10748,3,00:00.0,00:00.0,00:00.0,1,232.55
+SAVEA,Save-a-lot Markets,Jose Pavarotti,Sales Representative,10757,6,00:00.0,00:00.0,00:00.0,1,8.19
+SAVEA,Save-a-lot Markets,Jose Pavarotti,Sales Representative,10815,2,00:00.0,00:00.0,00:00.0,3,14.62
+SAVEA,Save-a-lot Markets,Jose Pavarotti,Sales Representative,10847,4,00:00.0,00:00.0,00:00.0,3,487.57
+SAVEA,Save-a-lot Markets,Jose Pavarotti,Sales Representative,10882,4,00:00.0,00:00.0,00:00.0,3,23.1
+SAVEA,Save-a-lot Markets,Jose Pavarotti,Sales Representative,10894,1,00:00.0,00:00.0,00:00.0,1,116.13
+SAVEA,Save-a-lot Markets,Jose Pavarotti,Sales Representative,10941,7,00:00.0,00:00.0,00:00.0,2,400.81
+SAVEA,Save-a-lot Markets,Jose Pavarotti,Sales Representative,10983,2,00:00.0,00:00.0,00:00.0,2,657.54
+SAVEA,Save-a-lot Markets,Jose Pavarotti,Sales Representative,10984,1,00:00.0,00:00.0,00:00.0,3,211.22
+SAVEA,Save-a-lot Markets,Jose Pavarotti,Sales Representative,11002,4,00:00.0,00:00.0,00:00.0,1,141.16
+SAVEA,Save-a-lot Markets,Jose Pavarotti,Sales Representative,11030,7,00:00.0,00:00.0,00:00.0,2,830.75
+SAVEA,Save-a-lot Markets,Jose Pavarotti,Sales Representative,11031,6,00:00.0,00:00.0,00:00.0,2,227.22
+SAVEA,Save-a-lot Markets,Jose Pavarotti,Sales Representative,11064,1,00:00.0,00:00.0,00:00.0,1,30.09
+SEVES,Seven Seas Imports,Hari Kumar,Sales Manager,10359,5,00:00.0,00:00.0,00:00.0,3,288.43
+SEVES,Seven Seas Imports,Hari Kumar,Sales Manager,10377,1,00:00.0,00:00.0,00:00.0,3,22.21
+SEVES,Seven Seas Imports,Hari Kumar,Sales Manager,10388,2,00:00.0,00:00.0,00:00.0,1,34.86
+SEVES,Seven Seas Imports,Hari Kumar,Sales Manager,10472,8,00:00.0,00:00.0,00:00.0,1,4.2
+SEVES,Seven Seas Imports,Hari Kumar,Sales Manager,10523,7,00:00.0,00:00.0,00:00.0,2,77.63
+SEVES,Seven Seas Imports,Hari Kumar,Sales Manager,10547,3,00:00.0,00:00.0,00:00.0,2,178.43
+SEVES,Seven Seas Imports,Hari Kumar,Sales Manager,10800,1,00:00.0,00:00.0,00:00.0,3,137.44
+SEVES,Seven Seas Imports,Hari Kumar,Sales Manager,10804,6,00:00.0,00:00.0,00:00.0,2,27.33
+SEVES,Seven Seas Imports,Hari Kumar,Sales Manager,10869,5,00:00.0,00:00.0,00:00.0,1,143.28
+SIMOB,Simons bistro,Jytte Petersen,Owner,10341,7,00:00.0,00:00.0,00:00.0,3,26.78
+SIMOB,Simons bistro,Jytte Petersen,Owner,10417,4,00:00.0,00:00.0,00:00.0,3,70.29
+SIMOB,Simons bistro,Jytte Petersen,Owner,10556,2,00:00.0,00:00.0,00:00.0,1,9.8
+SIMOB,Simons bistro,Jytte Petersen,Owner,10642,7,00:00.0,00:00.0,00:00.0,3,41.89
+SIMOB,Simons bistro,Jytte Petersen,Owner,10669,2,00:00.0,00:00.0,00:00.0,1,24.39
+SIMOB,Simons bistro,Jytte Petersen,Owner,10802,4,00:00.0,00:00.0,00:00.0,2,257.26
+SIMOB,Simons bistro,Jytte Petersen,Owner,11074,7,00:00.0,00:00.0,NULL,2,18.44
+SPECD,Spécialités du monde,Dominique Perrier,Marketing Manager,10738,2,00:00.0,00:00.0,00:00.0,1,2.91
+SPECD,Spécialités du monde,Dominique Perrier,Marketing Manager,10907,6,00:00.0,00:00.0,00:00.0,3,9.19
+SPECD,Spécialités du monde,Dominique Perrier,Marketing Manager,10964,3,00:00.0,00:00.0,00:00.0,2,87.38
+SPECD,Spécialités du monde,Dominique Perrier,Marketing Manager,11043,5,00:00.0,00:00.0,00:00.0,2,8.8
+SPLIR,Split Rail Beer & Ale,Art Braunschweiger,Sales Manager,10271,6,00:00.0,00:00.0,00:00.0,2,4.54
+SPLIR,Split Rail Beer & Ale,Art Braunschweiger,Sales Manager,10329,4,00:00.0,00:00.0,00:00.0,2,191.67
+SPLIR,Split Rail Beer & Ale,Art Braunschweiger,Sales Manager,10349,7,00:00.0,00:00.0,00:00.0,1,8.63
+SPLIR,Split Rail Beer & Ale,Art Braunschweiger,Sales Manager,10369,8,00:00.0,00:00.0,00:00.0,2,195.68
+SPLIR,Split Rail Beer & Ale,Art Braunschweiger,Sales Manager,10385,1,00:00.0,00:00.0,00:00.0,2,30.96
+SPLIR,Split Rail Beer & Ale,Art Braunschweiger,Sales Manager,10432,3,00:00.0,00:00.0,00:00.0,2,4.34
+SPLIR,Split Rail Beer & Ale,Art Braunschweiger,Sales Manager,10756,8,00:00.0,00:00.0,00:00.0,2,73.21
+SPLIR,Split Rail Beer & Ale,Art Braunschweiger,Sales Manager,10821,1,00:00.0,00:00.0,00:00.0,1,36.68
+SPLIR,Split Rail Beer & Ale,Art Braunschweiger,Sales Manager,10974,3,00:00.0,00:00.0,00:00.0,3,12.96
+SUPRD,Suprêmes délices,Pascale Cartrain,Accounting Manager,10252,4,00:00.0,00:00.0,00:00.0,2,51.3
+SUPRD,Suprêmes délices,Pascale Cartrain,Accounting Manager,10302,4,00:00.0,00:00.0,00:00.0,2,6.27
+SUPRD,Suprêmes délices,Pascale Cartrain,Accounting Manager,10458,7,00:00.0,00:00.0,00:00.0,3,147.06
+SUPRD,Suprêmes délices,Pascale Cartrain,Accounting Manager,10463,5,00:00.0,00:00.0,00:00.0,3,14.78
+SUPRD,Suprêmes délices,Pascale Cartrain,Accounting Manager,10475,9,00:00.0,00:00.0,00:00.0,1,68.52
+SUPRD,Suprêmes délices,Pascale Cartrain,Accounting Manager,10767,4,00:00.0,00:00.0,00:00.0,3,1.59
+SUPRD,Suprêmes délices,Pascale Cartrain,Accounting Manager,10841,5,00:00.0,00:00.0,00:00.0,2,424.3
+SUPRD,Suprêmes délices,Pascale Cartrain,Accounting Manager,10846,2,00:00.0,00:00.0,00:00.0,3,56.46
+SUPRD,Suprêmes délices,Pascale Cartrain,Accounting Manager,10885,6,00:00.0,00:00.0,00:00.0,3,5.64
+SUPRD,Suprêmes délices,Pascale Cartrain,Accounting Manager,10930,4,00:00.0,00:00.0,00:00.0,3,15.55
+SUPRD,Suprêmes délices,Pascale Cartrain,Accounting Manager,11035,2,00:00.0,00:00.0,00:00.0,2,0.17
+SUPRD,Suprêmes délices,Pascale Cartrain,Accounting Manager,11038,1,00:00.0,00:00.0,00:00.0,2,29.59
+THEBI,The Big Cheese,Liz Nixon,Marketing Manager,10310,8,00:00.0,00:00.0,00:00.0,2,17.52
+THEBI,The Big Cheese,Liz Nixon,Marketing Manager,10708,6,00:00.0,00:00.0,00:00.0,2,2.96
+THEBI,The Big Cheese,Liz Nixon,Marketing Manager,10805,2,00:00.0,00:00.0,00:00.0,3,237.34
+THEBI,The Big Cheese,Liz Nixon,Marketing Manager,10992,1,00:00.0,00:00.0,00:00.0,3,4.27
+THECR,The Cracker Box,Liu Wong,Marketing Assistant,10624,4,00:00.0,00:00.0,00:00.0,2,94.8
+THECR,The Cracker Box,Liu Wong,Marketing Assistant,10775,7,00:00.0,00:00.0,00:00.0,1,20.25
+THECR,The Cracker Box,Liu Wong,Marketing Assistant,11003,3,00:00.0,00:00.0,00:00.0,3,14.91
+TOMSP,Toms Spezialitäten,Karin Josephs,Marketing Manager,10249,6,00:00.0,00:00.0,00:00.0,1,11.61
+TOMSP,Toms Spezialitäten,Karin Josephs,Marketing Manager,10438,3,00:00.0,00:00.0,00:00.0,2,8.24
+TOMSP,Toms Spezialitäten,Karin Josephs,Marketing Manager,10446,6,00:00.0,00:00.0,00:00.0,1,14.68
+TOMSP,Toms Spezialitäten,Karin Josephs,Marketing Manager,10548,3,00:00.0,00:00.0,00:00.0,2,1.43
+TOMSP,Toms Spezialitäten,Karin Josephs,Marketing Manager,10608,4,00:00.0,00:00.0,00:00.0,2,27.79
+TOMSP,Toms Spezialitäten,Karin Josephs,Marketing Manager,10967,2,00:00.0,00:00.0,00:00.0,2,62.22
+TORTU,Tortuga Restaurante,Miguel Angel Paolino,Owner,10276,8,00:00.0,00:00.0,00:00.0,3,13.84
+TORTU,Tortuga Restaurante,Miguel Angel Paolino,Owner,10293,1,00:00.0,00:00.0,00:00.0,3,21.18
+TORTU,Tortuga Restaurante,Miguel Angel Paolino,Owner,10304,1,00:00.0,00:00.0,00:00.0,2,63.79
+TORTU,Tortuga Restaurante,Miguel Angel Paolino,Owner,10319,7,00:00.0,00:00.0,00:00.0,3,64.5
+TORTU,Tortuga Restaurante,Miguel Angel Paolino,Owner,10518,4,00:00.0,00:00.0,00:00.0,2,218.15
+TORTU,Tortuga Restaurante,Miguel Angel Paolino,Owner,10576,3,00:00.0,00:00.0,00:00.0,3,18.56
+TORTU,Tortuga Restaurante,Miguel Angel Paolino,Owner,10676,2,00:00.0,00:00.0,00:00.0,2,2.01
+TORTU,Tortuga Restaurante,Miguel Angel Paolino,Owner,10842,1,00:00.0,00:00.0,00:00.0,3,54.42
+TORTU,Tortuga Restaurante,Miguel Angel Paolino,Owner,10915,2,00:00.0,00:00.0,00:00.0,2,3.51
+TORTU,Tortuga Restaurante,Miguel Angel Paolino,Owner,11069,1,00:00.0,00:00.0,00:00.0,2,15.67
+TRADH,Tradição Hipermercados,Anabela Domingues,Sales Representative,10292,1,00:00.0,00:00.0,00:00.0,2,1.35
+TRADH,Tradição Hipermercados,Anabela Domingues,Sales Representative,10496,7,00:00.0,00:00.0,00:00.0,2,46.77
+TRADH,Tradição Hipermercados,Anabela Domingues,Sales Representative,10606,4,00:00.0,00:00.0,00:00.0,3,79.4
+TRADH,Tradição Hipermercados,Anabela Domingues,Sales Representative,10830,4,00:00.0,00:00.0,00:00.0,2,81.83
+TRADH,Tradição Hipermercados,Anabela Domingues,Sales Representative,10834,1,00:00.0,00:00.0,00:00.0,3,29.78
+TRADH,Tradição Hipermercados,Anabela Domingues,Sales Representative,10839,3,00:00.0,00:00.0,00:00.0,3,35.43
+TRAIH,Trail's Head Gourmet Provisioners,Helvetius Nagy,Sales Associate,10574,4,00:00.0,00:00.0,00:00.0,2,37.6
+TRAIH,Trail's Head Gourmet Provisioners,Helvetius Nagy,Sales Associate,10577,9,00:00.0,00:00.0,00:00.0,2,25.41
+TRAIH,Trail's Head Gourmet Provisioners,Helvetius Nagy,Sales Associate,10822,6,00:00.0,00:00.0,00:00.0,3,7
+VAFFE,Vaffeljernet,Palle Ibsen,Sales Manager,10367,7,00:00.0,00:00.0,00:00.0,3,13.55
+VAFFE,Vaffeljernet,Palle Ibsen,Sales Manager,10399,8,00:00.0,00:00.0,00:00.0,3,27.36
+VAFFE,Vaffeljernet,Palle Ibsen,Sales Manager,10465,1,00:00.0,00:00.0,00:00.0,3,145.04
+VAFFE,Vaffeljernet,Palle Ibsen,Sales Manager,10591,1,00:00.0,00:00.0,00:00.0,1,55.92
+VAFFE,Vaffeljernet,Palle Ibsen,Sales Manager,10602,8,00:00.0,00:00.0,00:00.0,2,2.92
+VAFFE,Vaffeljernet,Palle Ibsen,Sales Manager,10688,4,00:00.0,00:00.0,00:00.0,2,299.09
+VAFFE,Vaffeljernet,Palle Ibsen,Sales Manager,10744,6,00:00.0,00:00.0,00:00.0,1,69.19
+VAFFE,Vaffeljernet,Palle Ibsen,Sales Manager,10769,3,00:00.0,00:00.0,00:00.0,1,65.06
+VAFFE,Vaffeljernet,Palle Ibsen,Sales Manager,10921,1,00:00.0,00:00.0,00:00.0,1,176.48
+VAFFE,Vaffeljernet,Palle Ibsen,Sales Manager,10946,1,00:00.0,00:00.0,00:00.0,2,27.2
+VAFFE,Vaffeljernet,Palle Ibsen,Sales Manager,10994,2,00:00.0,00:00.0,00:00.0,3,65.53
+VICTE,Victuailles en stock,Mary Saveley,Sales Agent,10251,3,00:00.0,00:00.0,00:00.0,1,41.34
+VICTE,Victuailles en stock,Mary Saveley,Sales Agent,10334,8,00:00.0,00:00.0,00:00.0,2,8.56
+VICTE,Victuailles en stock,Mary Saveley,Sales Agent,10450,8,00:00.0,00:00.0,00:00.0,2,7.23
+VICTE,Victuailles en stock,Mary Saveley,Sales Agent,10459,4,00:00.0,00:00.0,00:00.0,2,25.09
+VICTE,Victuailles en stock,Mary Saveley,Sales Agent,10478,2,00:00.0,00:00.0,00:00.0,3,4.81
+VICTE,Victuailles en stock,Mary Saveley,Sales Agent,10546,1,00:00.0,00:00.0,00:00.0,3,194.72
+VICTE,Victuailles en stock,Mary Saveley,Sales Agent,10806,3,00:00.0,00:00.0,00:00.0,2,22.11
+VICTE,Victuailles en stock,Mary Saveley,Sales Agent,10814,3,00:00.0,00:00.0,00:00.0,3,130.94
+VICTE,Victuailles en stock,Mary Saveley,Sales Agent,10843,4,00:00.0,00:00.0,00:00.0,2,9.26
+VICTE,Victuailles en stock,Mary Saveley,Sales Agent,10850,1,00:00.0,00:00.0,00:00.0,1,49.19
+VINET,Vins et alcools Chevalier,Paul Henriot,Accounting Manager,10248,5,00:00.0,00:00.0,00:00.0,3,32.38
+VINET,Vins et alcools Chevalier,Paul Henriot,Accounting Manager,10274,6,00:00.0,00:00.0,00:00.0,1,6.01
+VINET,Vins et alcools Chevalier,Paul Henriot,Accounting Manager,10295,2,00:00.0,00:00.0,00:00.0,2,1.15
+VINET,Vins et alcools Chevalier,Paul Henriot,Accounting Manager,10737,2,00:00.0,00:00.0,00:00.0,2,7.79
+VINET,Vins et alcools Chevalier,Paul Henriot,Accounting Manager,10739,3,00:00.0,00:00.0,00:00.0,3,11.08
+WANDK,Die Wandernde Kuh,Rita Müller,Sales Representative,10301,8,00:00.0,00:00.0,00:00.0,2,45.08
+WANDK,Die Wandernde Kuh,Rita Müller,Sales Representative,10312,2,00:00.0,00:00.0,00:00.0,2,40.26
+WANDK,Die Wandernde Kuh,Rita Müller,Sales Representative,10348,4,00:00.0,00:00.0,00:00.0,2,0.78
+WANDK,Die Wandernde Kuh,Rita Müller,Sales Representative,10356,6,00:00.0,00:00.0,00:00.0,2,36.71
+WANDK,Die Wandernde Kuh,Rita Müller,Sales Representative,10513,7,00:00.0,00:00.0,00:00.0,1,105.65
+WANDK,Die Wandernde Kuh,Rita Müller,Sales Representative,10632,8,00:00.0,00:00.0,00:00.0,1,41.38
+WANDK,Die Wandernde Kuh,Rita Müller,Sales Representative,10640,4,00:00.0,00:00.0,00:00.0,1,23.55
+WANDK,Die Wandernde Kuh,Rita Müller,Sales Representative,10651,8,00:00.0,00:00.0,00:00.0,2,20.6
+WANDK,Die Wandernde Kuh,Rita Müller,Sales Representative,10668,1,00:00.0,00:00.0,00:00.0,2,47.22
+WANDK,Die Wandernde Kuh,Rita Müller,Sales Representative,11046,8,00:00.0,00:00.0,00:00.0,2,71.64
+WARTH,Wartian Herkku,Pirkko Koskitalo,Accounting Manager,10266,3,00:00.0,00:00.0,00:00.0,3,25.73
+WARTH,Wartian Herkku,Pirkko Koskitalo,Accounting Manager,10270,1,00:00.0,00:00.0,00:00.0,1,136.54
+WARTH,Wartian Herkku,Pirkko Koskitalo,Accounting Manager,10320,5,00:00.0,00:00.0,00:00.0,3,34.57
+WARTH,Wartian Herkku,Pirkko Koskitalo,Accounting Manager,10333,5,00:00.0,00:00.0,00:00.0,3,0.59
+WARTH,Wartian Herkku,Pirkko Koskitalo,Accounting Manager,10412,8,00:00.0,00:00.0,00:00.0,2,3.77
+WARTH,Wartian Herkku,Pirkko Koskitalo,Accounting Manager,10416,8,00:00.0,00:00.0,00:00.0,3,22.72
+WARTH,Wartian Herkku,Pirkko Koskitalo,Accounting Manager,10437,8,00:00.0,00:00.0,00:00.0,1,19.97
+WARTH,Wartian Herkku,Pirkko Koskitalo,Accounting Manager,10455,8,00:00.0,00:00.0,00:00.0,2,180.45
+WARTH,Wartian Herkku,Pirkko Koskitalo,Accounting Manager,10526,4,00:00.0,00:00.0,00:00.0,2,58.59
+WARTH,Wartian Herkku,Pirkko Koskitalo,Accounting Manager,10553,2,00:00.0,00:00.0,00:00.0,2,149.49
+WARTH,Wartian Herkku,Pirkko Koskitalo,Accounting Manager,10583,2,00:00.0,00:00.0,00:00.0,2,7.28
+WARTH,Wartian Herkku,Pirkko Koskitalo,Accounting Manager,10636,4,00:00.0,00:00.0,00:00.0,1,1.15
+WARTH,Wartian Herkku,Pirkko Koskitalo,Accounting Manager,10750,9,00:00.0,00:00.0,00:00.0,1,79.3
+WARTH,Wartian Herkku,Pirkko Koskitalo,Accounting Manager,10781,2,00:00.0,00:00.0,00:00.0,3,73.16
+WARTH,Wartian Herkku,Pirkko Koskitalo,Accounting Manager,11025,6,00:00.0,00:00.0,00:00.0,3,29.17
+WELLI,Wellington Importadora,Paula Parente,Sales Manager,10256,3,00:00.0,00:00.0,00:00.0,2,13.97
+WELLI,Wellington Importadora,Paula Parente,Sales Manager,10420,3,00:00.0,00:00.0,00:00.0,1,44.12
+WELLI,Wellington Importadora,Paula Parente,Sales Manager,10585,7,00:00.0,00:00.0,00:00.0,1,13.41
+WELLI,Wellington Importadora,Paula Parente,Sales Manager,10644,3,00:00.0,00:00.0,00:00.0,2,0.14
+WELLI,Wellington Importadora,Paula Parente,Sales Manager,10803,4,00:00.0,00:00.0,00:00.0,1,55.23
+WELLI,Wellington Importadora,Paula Parente,Sales Manager,10809,7,00:00.0,00:00.0,00:00.0,1,4.87
+WELLI,Wellington Importadora,Paula Parente,Sales Manager,10900,1,00:00.0,00:00.0,00:00.0,2,1.66
+WELLI,Wellington Importadora,Paula Parente,Sales Manager,10905,9,00:00.0,00:00.0,00:00.0,2,13.72
+WELLI,Wellington Importadora,Paula Parente,Sales Manager,10935,4,00:00.0,00:00.0,00:00.0,3,47.59
+WHITC,White Clover Markets,Karl Jablonski,Owner,10269,5,00:00.0,00:00.0,00:00.0,1,4.56
+WHITC,White Clover Markets,Karl Jablonski,Owner,10344,4,00:00.0,00:00.0,00:00.0,2,23.29
+WHITC,White Clover Markets,Karl Jablonski,Owner,10469,1,00:00.0,00:00.0,00:00.0,1,60.18
+WHITC,White Clover Markets,Karl Jablonski,Owner,10483,7,00:00.0,00:00.0,00:00.0,2,15.28
+WHITC,White Clover Markets,Karl Jablonski,Owner,10504,4,00:00.0,00:00.0,00:00.0,3,59.13
+WHITC,White Clover Markets,Karl Jablonski,Owner,10596,8,00:00.0,00:00.0,00:00.0,1,16.34
+WHITC,White Clover Markets,Karl Jablonski,Owner,10693,3,00:00.0,00:00.0,00:00.0,3,139.34
+WHITC,White Clover Markets,Karl Jablonski,Owner,10696,8,00:00.0,00:00.0,00:00.0,3,102.55
+WHITC,White Clover Markets,Karl Jablonski,Owner,10723,3,00:00.0,00:00.0,00:00.0,1,21.72
+WHITC,White Clover Markets,Karl Jablonski,Owner,10740,4,00:00.0,00:00.0,00:00.0,2,81.88
+WHITC,White Clover Markets,Karl Jablonski,Owner,10861,4,00:00.0,00:00.0,00:00.0,2,14.93
+WHITC,White Clover Markets,Karl Jablonski,Owner,10904,3,00:00.0,00:00.0,00:00.0,3,162.95
+WHITC,White Clover Markets,Karl Jablonski,Owner,11032,2,00:00.0,00:00.0,00:00.0,3,606.19
+WHITC,White Clover Markets,Karl Jablonski,Owner,11066,7,00:00.0,00:00.0,00:00.0,2,44.72
+WILMK,Wilman Kala,Matti Karttunen,Owner/Marketing Assistant,10615,2,00:00.0,00:00.0,00:00.0,3,0.75
+WILMK,Wilman Kala,Matti Karttunen,Owner/Marketing Assistant,10673,2,00:00.0,00:00.0,00:00.0,1,22.76
+WILMK,Wilman Kala,Matti Karttunen,Owner/Marketing Assistant,10695,7,00:00.0,00:00.0,00:00.0,1,16.72
+WILMK,Wilman Kala,Matti Karttunen,Owner/Marketing Assistant,10873,4,00:00.0,00:00.0,00:00.0,1,0.82
+WILMK,Wilman Kala,Matti Karttunen,Owner/Marketing Assistant,10879,3,00:00.0,00:00.0,00:00.0,3,8.5
+WILMK,Wilman Kala,Matti Karttunen,Owner/Marketing Assistant,10910,1,00:00.0,00:00.0,00:00.0,3,38.11
+WILMK,Wilman Kala,Matti Karttunen,Owner/Marketing Assistant,11005,2,00:00.0,00:00.0,00:00.0,1,0.75
+WOLZA,Wolski  Zajazd,Zbyszek Piestrzeniewicz,Owner,10374,1,00:00.0,00:00.0,00:00.0,3,3.94
+WOLZA,Wolski  Zajazd,Zbyszek Piestrzeniewicz,Owner,10611,6,00:00.0,00:00.0,00:00.0,2,80.65
+WOLZA,Wolski  Zajazd,Zbyszek Piestrzeniewicz,Owner,10792,1,00:00.0,00:00.0,00:00.0,3,23.79
+WOLZA,Wolski  Zajazd,Zbyszek Piestrzeniewicz,Owner,10870,5,00:00.0,00:00.0,00:00.0,3,12.04
+WOLZA,Wolski  Zajazd,Zbyszek Piestrzeniewicz,Owner,10906,4,00:00.0,00:00.0,00:00.0,3,26.29
+WOLZA,Wolski  Zajazd,Zbyszek Piestrzeniewicz,Owner,10998,8,00:00.0,00:00.0,00:00.0,2,20.31
+WOLZA,Wolski  Zajazd,Zbyszek Piestrzeniewicz,Owner,11044,4,00:00.0,00:00.0,00:00.0,1,8.72

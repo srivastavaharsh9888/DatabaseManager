@@ -1,0 +1,8 @@
+<div class="wrapper container">
+<h4>CSV Columns List-:(Select a key for join)</h4>
+<ul>
+  <li *ngFor="let col of colNames" (click)="selectOtherCol(col)">
+    <label class="first" >{{ col }}</label>
+  </li>
+</ul>
+</div>
